@@ -1,4 +1,4 @@
-# 🔥 DOOM Fire — in COBOL
+# 🔥 DOOM Fire + 2048 — in COBOL
 
 The famous PSX **DOOM fire effect**, computed and rendered in **COBOL** — the
 1959 language that still runs the world's banks, ATMs, and airline
@@ -16,6 +16,16 @@ COBOL writes every frame as raw 24-bit RGB; `ffmpeg` stitches them into video.
 > I wrote the DOOM fire effect in COBOL. Yes, *that* COBOL — the one banks run
 > on. It computes the flame simulation and renders raw RGB frames with zero
 > graphics libraries. Here it is setting the word "COBOL" on fire.
+
+## Also: 2048, playing itself
+
+**`GAME2048.cob`** is a complete 2048 — real rules (slide, single-merge per
+move, 90/10 random 2/4 spawns) with a corner-stacking AI, rendered to
+260×260 raw RGB frames: the authentic tile palette and a hand-drawn 3×5
+pixel font for the numbers, all in COBOL. The self-play run becomes
+`game2048.mp4`.
+
+![2048 in COBOL](game2048.gif)
 
 ## How it works
 
