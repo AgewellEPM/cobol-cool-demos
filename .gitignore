@@ -5,3 +5,6 @@ cf-*.png
 verify-*.png
 GAME2048
 g2048-*.png
+terminal.raw
+run_frame.txt
+comp-*.png
