@@ -129,3 +129,33 @@ None of A–C is ENTERPRISE-READY or PRODUCTION-READY — these are demo/shareab
 - **C-STRETCH:** the only acceptable proof of "in PCSX2" is a capture of the COBOL-authored ELF running under `pcsx2 --elf=` with the string/frame on the GS; "on hardware" requires a photo/capture of a real console. Until that exists, the claim stays EXPERIMENTAL.
 
 **Files/paths:** repo `/Users/lukekist/cobol-cool-demos` (reuse `GAME2048.cob` lines 21–22, 47, 432–449 for the renderer; `DOOMFIRE.cob` for the palette/encode pipeline). Proven peels: `/Users/lukekist/perslis-dos-snake/docs/cobol-game-proofs/peel-data-format-cobol-sprite-bitmap.cob` and `.../peel-capability-cobol-fixed-point-trig.cob`. Toolchain confirmed on-machine: `cobc (GnuCOBOL) 3.2.0` at `/opt/homebrew/bin/cobc`, `ffmpeg` at `/opt/homebrew/bin/ffmpeg`, `PCSX2.app` in `/Applications`. NOT on-machine (C-stretch must fetch): `ee-gcc`, PS2SDK, `ps2toolchain`, GnuCOBOL source tarball.
+---
+
+## M0 RESULTS (2026-07-27) — GATE PASSED
+
+Built `FIGHTBENCH.cob` (naive full-repaint) and `FIGHTBENCH2.cob` (optimized) —
+a real fighter scene: scrolling background, floor, two moving fighter bodies,
+two draining health bars, at 320×224 → upscaled 640×448 nearest-neighbor.
+
+| Build | render fps | note |
+|---|---|---|
+| FIGHTBENCH (per-byte `PUT-BYTE` PERFORM) | **9.4** | the DOOMFIRE/2048 mechanism, verbatim |
+| FIGHTBENCH2 (precomputed 3-byte `COL-STR`, one `MOVE`/pixel) | **13.1** | +39%, still byte-exact |
+
+Byte-exact both: `320*224*3*300 = 64,512,000` bytes, `exact=True`.
+
+**Verdict:**
+- **Path A (offline-rendered fighter video) is GREEN.** 13 fps render → a 10 s
+  60 fps clip (600 frames) renders in ~46 s. Fully fine for the M5 shareable
+  artifact. Proceed.
+- **Path B (realtime playable) is NOT free at full repaint** (13 fps < 30). It
+  needs the plan's mitigation #3 — **row-slab blitting** (redraw the background
+  template once, MOVE it into `PIX` each frame, overwrite only fighter/HUD
+  spans) — plus possibly a smaller inner res. Scoped, not blocking; do it when
+  we reach B.
+- Biggest proven lever so far: replacing the per-byte `PUT-BYTE` PERFORM with a
+  precomputed 3-byte `COL-STR` `MOVE`. Bake this into the real engine renderer.
+
+Next: **M1 — two idle fighters + health bars as the real engine skeleton**
+(sprite bodies via the sprite-bitmap peel, HUD text via the 2048 pixel-font),
+reusing FIGHTBENCH2's renderer.
