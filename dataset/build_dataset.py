@@ -100,15 +100,15 @@ NAME_BANK = [
 ]
 
 TABLE_OPS = {
-    "sum":   ("compute the sum of", lambda v: sum(v)),
-    "max":   ("find the largest value in", lambda v: max(v)),
-    "min":   ("find the smallest value in", lambda v: min(v)),
-    "count-neg": ("count how many entries are negative in", lambda v: sum(1 for x in v if x < 0)),
-    "count-over": ("count how many entries exceed 100 in", lambda v: sum(1 for x in v if x > 100)),
-    "range": ("compute max minus min of", lambda v: max(v) - min(v)),
-    "sum-abs": ("compute the sum of absolute values of", lambda v: sum(abs(x) for x in v)),
-    "avg": ("compute the integer average (truncated toward zero) of", lambda v: int(sum(v) / len(v))),
-    "idx-max": ("find the 1-based index of the first largest value in", lambda v: v.index(max(v)) + 1),
+    "sum":   ("computes the sum of", lambda v: sum(v)),
+    "max":   ("finds the largest value in", lambda v: max(v)),
+    "min":   ("finds the smallest value in", lambda v: min(v)),
+    "count-neg": ("counts how many entries are negative in", lambda v: sum(1 for x in v if x < 0)),
+    "count-over": ("counts how many entries exceed 100 in", lambda v: sum(1 for x in v if x > 100)),
+    "range": ("computes max minus min of", lambda v: max(v) - min(v)),
+    "sum-abs": ("computes the sum of absolute values of", lambda v: sum(abs(x) for x in v)),
+    "avg": ("computes the integer average (truncated toward zero) of", lambda v: int(sum(v) / len(v))),
+    "idx-max": ("finds the 1-based index of the first largest value in", lambda v: v.index(max(v)) + 1),
 }
 
 
@@ -233,8 +233,8 @@ def drill_instructions(pid, phrase, n, fdesc, fmt):
     casual = (
         f"I need a callable COBOL routine ({fmt_word}, GnuCOBOL 3.2). The caller "
         f"passes LINKED-ITEMS with {n} {fdesc} entries (PIC S9(5), OCCURS table "
-        f"named L-TAB) plus a RESULT field (PIC S9(9)). Make PROGRAM-ID {pid} "
-        f"{phrase} the table and put the answer in RESULT. Mind the rules: "
+        f"named L-TAB) plus a RESULT field (PIC S9(9)). PROGRAM-ID {pid} "
+        f"{phrase} the table and puts the answer in RESULT. Mind the rules: "
         f"WORKING-STORAGE before LINKAGE, 01/77 levels at root, and terminate "
         f"the final statement with a period before END PROGRAM."
     )
@@ -274,11 +274,11 @@ def build_drills():
 # ------------------------------------------------------ string drill family
 
 STR_OPS = {
-    "length": ("return the length (excluding trailing spaces) of",
+    "length": ("returns the length (excluding trailing spaces) of",
                lambda s: len(s.rstrip())),
-    "count-char": ("count occurrences of the character 'A' in",
+    "count-char": ("counts occurrences of the character 'A' in",
                    lambda s: s.count("A")),
-    "count-vowels": ("count the vowels (A E I O U) in",
+    "count-vowels": ("counts the vowels (A E I O U) in",
                      lambda s: sum(1 for c in s if c in "AEIOU")),
 }
 
