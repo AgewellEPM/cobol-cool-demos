@@ -1,0 +1,19 @@
+diff --git a/scripts/evaluation.py b/scripts/evaluation.py
+index b572727..9b8c085 100644
+--- a/scripts/evaluation.py
++++ b/scripts/evaluation.py
+@@ -111,9 +111,11 @@ def exec(name, path, call_path) -> bool:
+     # Once you have read this disclaimer and taken appropriate precautions,
+     # uncomment the following lines and proceed at your own risk:
+ 
+-    # if not cmd(f"./call_{name}"):
+-    #     logger.warning(f"Runtime error for {path}")
+-    #     return False
++    # Execution enabled deliberately (local benchmark box; generated code is
++    # arithmetic HumanEval ports, compiled + run under the 5s cmd() timeout).
++    if not cmd(f"./call_{name}"):
++        logger.warning(f"Runtime error for {path}")
++        return False
+ 
+     return True
+ 

@@ -11,3 +11,7 @@ comp-*.png
 *.raw
 FIGHTBENCH
 FIGHTBENCH2
+eval/venv/
+eval/COBOLEval/
+eval/*.log
+*.raw
