@@ -1,0 +1,1253 @@
+{"idx": 0, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": 561, "got": 561}}
+{"idx": 1, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": 561, "got": 561}}
+{"idx": 2, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": 561, "got": 561}}
+{"idx": 3, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": 561, "got": 561}}
+{"idx": 4, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": 1233, "got": 1233}}
+{"idx": 5, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": 1233, "got": 1233}}
+{"idx": 6, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": 1233, "got": 1233}}
+{"idx": 7, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": 1233, "got": 1233}}
+{"idx": 8, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": 390, "got": 390}}
+{"idx": 9, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": 390, "got": 390}}
+{"idx": 10, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": 390, "got": 390}}
+{"idx": 11, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": 390, "got": 390}}
+{"idx": 12, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": -492, "got": -492}}
+{"idx": 13, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": -492, "got": -492}}
+{"idx": 14, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": -492, "got": -492}}
+{"idx": 15, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": -492, "got": -492}}
+{"idx": 16, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": 42, "got": 42}}
+{"idx": 17, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": 42, "got": 42}}
+{"idx": 18, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": 42, "got": 42}}
+{"idx": 19, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": 42, "got": 42}}
+{"idx": 20, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": -1454, "got": -1454}}
+{"idx": 21, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": -1454, "got": -1454}}
+{"idx": 22, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": -1454, "got": -1454}}
+{"idx": 23, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": -1454, "got": -1454}}
+{"idx": 24, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": 244, "got": 244}}
+{"idx": 25, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": 244, "got": 244}}
+{"idx": 26, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": 244, "got": 244}}
+{"idx": 27, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": 244, "got": 244}}
+{"idx": 28, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": -262, "got": -262}}
+{"idx": 29, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": -262, "got": -262}}
+{"idx": 30, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": -262, "got": -262}}
+{"idx": 31, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": -262, "got": -262}}
+{"idx": 32, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": -442, "got": -442}}
+{"idx": 33, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": -442, "got": -442}}
+{"idx": 34, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": -442, "got": -442}}
+{"idx": 35, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": -442, "got": -442}}
+{"idx": 36, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": 169, "got": 169}}
+{"idx": 37, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": 169, "got": 169}}
+{"idx": 38, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": 169, "got": 169}}
+{"idx": 39, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": 169, "got": 169}}
+{"idx": 40, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": 736, "got": 736}}
+{"idx": 41, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": 736, "got": 736}}
+{"idx": 42, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": 736, "got": 736}}
+{"idx": 43, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": 736, "got": 736}}
+{"idx": 44, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": 545, "got": 545}}
+{"idx": 45, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": 545, "got": 545}}
+{"idx": 46, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": 545, "got": 545}}
+{"idx": 47, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": 545, "got": 545}}
+{"idx": 48, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": -107, "got": -107}}
+{"idx": 49, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": -107, "got": -107}}
+{"idx": 50, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": -107, "got": -107}}
+{"idx": 51, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": -107, "got": -107}}
+{"idx": 52, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": -743, "got": -743}}
+{"idx": 53, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": -743, "got": -743}}
+{"idx": 54, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": -743, "got": -743}}
+{"idx": 55, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": -743, "got": -743}}
+{"idx": 56, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": 633, "got": 633}}
+{"idx": 57, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": 633, "got": 633}}
+{"idx": 58, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": 633, "got": 633}}
+{"idx": 59, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": 633, "got": 633}}
+{"idx": 60, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": -1190, "got": -1190}}
+{"idx": 61, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": -1190, "got": -1190}}
+{"idx": 62, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": -1190, "got": -1190}}
+{"idx": 63, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": -1190, "got": -1190}}
+{"idx": 64, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": 297, "got": 297}}
+{"idx": 65, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": 297, "got": 297}}
+{"idx": 66, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": 297, "got": 297}}
+{"idx": 67, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": 297, "got": 297}}
+{"idx": 68, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": 103, "got": 103}}
+{"idx": 69, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": 103, "got": 103}}
+{"idx": 70, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": 103, "got": 103}}
+{"idx": 71, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": 103, "got": 103}}
+{"idx": 72, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": 482, "got": 482}}
+{"idx": 73, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": 482, "got": 482}}
+{"idx": 74, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": 482, "got": 482}}
+{"idx": 75, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": 482, "got": 482}}
+{"idx": 76, "source": "drill:sum:fixed:spec", "verify": {"kind": "run-verified", "expected": -94, "got": -94}}
+{"idx": 77, "source": "drill:sum:fixed:casual", "verify": {"kind": "run-verified", "expected": -94, "got": -94}}
+{"idx": 78, "source": "drill:sum:free:spec", "verify": {"kind": "run-verified", "expected": -94, "got": -94}}
+{"idx": 79, "source": "drill:sum:free:casual", "verify": {"kind": "run-verified", "expected": -94, "got": -94}}
+{"idx": 80, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 278, "got": 278}}
+{"idx": 81, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 278, "got": 278}}
+{"idx": 82, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 278, "got": 278}}
+{"idx": 83, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 278, "got": 278}}
+{"idx": 84, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 309, "got": 309}}
+{"idx": 85, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 309, "got": 309}}
+{"idx": 86, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 309, "got": 309}}
+{"idx": 87, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 309, "got": 309}}
+{"idx": 88, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 108, "got": 108}}
+{"idx": 89, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 108, "got": 108}}
+{"idx": 90, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 108, "got": 108}}
+{"idx": 91, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 108, "got": 108}}
+{"idx": 92, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 199, "got": 199}}
+{"idx": 93, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 199, "got": 199}}
+{"idx": 94, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 199, "got": 199}}
+{"idx": 95, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 199, "got": 199}}
+{"idx": 96, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 296, "got": 296}}
+{"idx": 97, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 296, "got": 296}}
+{"idx": 98, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 296, "got": 296}}
+{"idx": 99, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 296, "got": 296}}
+{"idx": 100, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 316, "got": 316}}
+{"idx": 101, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 316, "got": 316}}
+{"idx": 102, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 316, "got": 316}}
+{"idx": 103, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 316, "got": 316}}
+{"idx": 104, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 318, "got": 318}}
+{"idx": 105, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 318, "got": 318}}
+{"idx": 106, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 318, "got": 318}}
+{"idx": 107, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 318, "got": 318}}
+{"idx": 108, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 392, "got": 392}}
+{"idx": 109, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 392, "got": 392}}
+{"idx": 110, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 392, "got": 392}}
+{"idx": 111, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 392, "got": 392}}
+{"idx": 112, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 336, "got": 336}}
+{"idx": 113, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 336, "got": 336}}
+{"idx": 114, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 336, "got": 336}}
+{"idx": 115, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 336, "got": 336}}
+{"idx": 116, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 388, "got": 388}}
+{"idx": 117, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 388, "got": 388}}
+{"idx": 118, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 388, "got": 388}}
+{"idx": 119, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 388, "got": 388}}
+{"idx": 120, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 348, "got": 348}}
+{"idx": 121, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 348, "got": 348}}
+{"idx": 122, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 348, "got": 348}}
+{"idx": 123, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 348, "got": 348}}
+{"idx": 124, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 335, "got": 335}}
+{"idx": 125, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 335, "got": 335}}
+{"idx": 126, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 335, "got": 335}}
+{"idx": 127, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 335, "got": 335}}
+{"idx": 128, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 380, "got": 380}}
+{"idx": 129, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 380, "got": 380}}
+{"idx": 130, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 380, "got": 380}}
+{"idx": 131, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 380, "got": 380}}
+{"idx": 132, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 340, "got": 340}}
+{"idx": 133, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 340, "got": 340}}
+{"idx": 134, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 340, "got": 340}}
+{"idx": 135, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 340, "got": 340}}
+{"idx": 136, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 310, "got": 310}}
+{"idx": 137, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 310, "got": 310}}
+{"idx": 138, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 310, "got": 310}}
+{"idx": 139, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 310, "got": 310}}
+{"idx": 140, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 357, "got": 357}}
+{"idx": 141, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 357, "got": 357}}
+{"idx": 142, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 357, "got": 357}}
+{"idx": 143, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 357, "got": 357}}
+{"idx": 144, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 378, "got": 378}}
+{"idx": 145, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 378, "got": 378}}
+{"idx": 146, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 378, "got": 378}}
+{"idx": 147, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 378, "got": 378}}
+{"idx": 148, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 292, "got": 292}}
+{"idx": 149, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 292, "got": 292}}
+{"idx": 150, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 292, "got": 292}}
+{"idx": 151, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 292, "got": 292}}
+{"idx": 152, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 301, "got": 301}}
+{"idx": 153, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 301, "got": 301}}
+{"idx": 154, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 301, "got": 301}}
+{"idx": 155, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 301, "got": 301}}
+{"idx": 156, "source": "drill:max:fixed:spec", "verify": {"kind": "run-verified", "expected": 400, "got": 400}}
+{"idx": 157, "source": "drill:max:fixed:casual", "verify": {"kind": "run-verified", "expected": 400, "got": 400}}
+{"idx": 158, "source": "drill:max:free:spec", "verify": {"kind": "run-verified", "expected": 400, "got": 400}}
+{"idx": 159, "source": "drill:max:free:casual", "verify": {"kind": "run-verified", "expected": 400, "got": 400}}
+{"idx": 160, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -157, "got": -157}}
+{"idx": 161, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -157, "got": -157}}
+{"idx": 162, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -157, "got": -157}}
+{"idx": 163, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -157, "got": -157}}
+{"idx": 164, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -371, "got": -371}}
+{"idx": 165, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -371, "got": -371}}
+{"idx": 166, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -371, "got": -371}}
+{"idx": 167, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -371, "got": -371}}
+{"idx": 168, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -400, "got": -400}}
+{"idx": 169, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -400, "got": -400}}
+{"idx": 170, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -400, "got": -400}}
+{"idx": 171, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -400, "got": -400}}
+{"idx": 172, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -382, "got": -382}}
+{"idx": 173, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -382, "got": -382}}
+{"idx": 174, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -382, "got": -382}}
+{"idx": 175, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -382, "got": -382}}
+{"idx": 176, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -133, "got": -133}}
+{"idx": 177, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -133, "got": -133}}
+{"idx": 178, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -133, "got": -133}}
+{"idx": 179, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -133, "got": -133}}
+{"idx": 180, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -387, "got": -387}}
+{"idx": 181, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -387, "got": -387}}
+{"idx": 182, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -387, "got": -387}}
+{"idx": 183, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -387, "got": -387}}
+{"idx": 184, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -397, "got": -397}}
+{"idx": 185, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -397, "got": -397}}
+{"idx": 186, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -397, "got": -397}}
+{"idx": 187, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -397, "got": -397}}
+{"idx": 188, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -354, "got": -354}}
+{"idx": 189, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -354, "got": -354}}
+{"idx": 190, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -354, "got": -354}}
+{"idx": 191, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -354, "got": -354}}
+{"idx": 192, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -319, "got": -319}}
+{"idx": 193, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -319, "got": -319}}
+{"idx": 194, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -319, "got": -319}}
+{"idx": 195, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -319, "got": -319}}
+{"idx": 196, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -387, "got": -387}}
+{"idx": 197, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -387, "got": -387}}
+{"idx": 198, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -387, "got": -387}}
+{"idx": 199, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -387, "got": -387}}
+{"idx": 200, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -332, "got": -332}}
+{"idx": 201, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -332, "got": -332}}
+{"idx": 202, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -332, "got": -332}}
+{"idx": 203, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -332, "got": -332}}
+{"idx": 204, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -273, "got": -273}}
+{"idx": 205, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -273, "got": -273}}
+{"idx": 206, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -273, "got": -273}}
+{"idx": 207, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -273, "got": -273}}
+{"idx": 208, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -270, "got": -270}}
+{"idx": 209, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -270, "got": -270}}
+{"idx": 210, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -270, "got": -270}}
+{"idx": 211, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -270, "got": -270}}
+{"idx": 212, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -364, "got": -364}}
+{"idx": 213, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -364, "got": -364}}
+{"idx": 214, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -364, "got": -364}}
+{"idx": 215, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -364, "got": -364}}
+{"idx": 216, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -254, "got": -254}}
+{"idx": 217, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -254, "got": -254}}
+{"idx": 218, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -254, "got": -254}}
+{"idx": 219, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -254, "got": -254}}
+{"idx": 220, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -359, "got": -359}}
+{"idx": 221, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -359, "got": -359}}
+{"idx": 222, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -359, "got": -359}}
+{"idx": 223, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -359, "got": -359}}
+{"idx": 224, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -191, "got": -191}}
+{"idx": 225, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -191, "got": -191}}
+{"idx": 226, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -191, "got": -191}}
+{"idx": 227, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -191, "got": -191}}
+{"idx": 228, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -142, "got": -142}}
+{"idx": 229, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -142, "got": -142}}
+{"idx": 230, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -142, "got": -142}}
+{"idx": 231, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -142, "got": -142}}
+{"idx": 232, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -386, "got": -386}}
+{"idx": 233, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -386, "got": -386}}
+{"idx": 234, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -386, "got": -386}}
+{"idx": 235, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -386, "got": -386}}
+{"idx": 236, "source": "drill:min:fixed:spec", "verify": {"kind": "run-verified", "expected": -329, "got": -329}}
+{"idx": 237, "source": "drill:min:fixed:casual", "verify": {"kind": "run-verified", "expected": -329, "got": -329}}
+{"idx": 238, "source": "drill:min:free:spec", "verify": {"kind": "run-verified", "expected": -329, "got": -329}}
+{"idx": 239, "source": "drill:min:free:casual", "verify": {"kind": "run-verified", "expected": -329, "got": -329}}
+{"idx": 240, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 241, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 242, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 243, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 244, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 245, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 246, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 247, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 248, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 0, "got": 0}}
+{"idx": 249, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 0, "got": 0}}
+{"idx": 250, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 0, "got": 0}}
+{"idx": 251, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 0, "got": 0}}
+{"idx": 252, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 253, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 254, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 255, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 256, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 257, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 258, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 259, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 260, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 261, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 262, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 263, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 264, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 265, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 266, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 267, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 268, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 269, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 270, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 271, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 272, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 273, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 274, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 275, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 276, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 277, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 278, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 279, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 280, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 281, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 282, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 283, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 284, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 285, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 286, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 287, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 288, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 289, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 290, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 291, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 292, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 293, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 294, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 295, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 296, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 297, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 298, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 299, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 300, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 301, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 302, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 303, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 304, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 305, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 306, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 307, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 308, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 309, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 310, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 311, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 312, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 313, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 314, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 315, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 316, "source": "drill:count-neg:fixed:spec", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 317, "source": "drill:count-neg:fixed:casual", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 318, "source": "drill:count-neg:free:spec", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 319, "source": "drill:count-neg:free:casual", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 320, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 321, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 322, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 323, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 324, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 325, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 326, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 327, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 328, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 329, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 330, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 331, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 332, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 333, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 334, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 335, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 336, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 337, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 338, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 339, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 340, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 341, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 342, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 343, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 344, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 345, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 346, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 347, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 348, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 349, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 350, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 351, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 352, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 353, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 354, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 355, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 356, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 357, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 358, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 359, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 360, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 361, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 362, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 363, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 364, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 365, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 366, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 367, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 368, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 8, "got": 8}}
+{"idx": 369, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 8, "got": 8}}
+{"idx": 370, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 8, "got": 8}}
+{"idx": 371, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 8, "got": 8}}
+{"idx": 372, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 373, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 374, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 375, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 376, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 377, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 378, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 379, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 380, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 381, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 382, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 383, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 384, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 8, "got": 8}}
+{"idx": 385, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 8, "got": 8}}
+{"idx": 386, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 8, "got": 8}}
+{"idx": 387, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 8, "got": 8}}
+{"idx": 388, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 10, "got": 10}}
+{"idx": 389, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 10, "got": 10}}
+{"idx": 390, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 10, "got": 10}}
+{"idx": 391, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 10, "got": 10}}
+{"idx": 392, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 9, "got": 9}}
+{"idx": 393, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 9, "got": 9}}
+{"idx": 394, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 9, "got": 9}}
+{"idx": 395, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 9, "got": 9}}
+{"idx": 396, "source": "drill:count-over:fixed:spec", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 397, "source": "drill:count-over:fixed:casual", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 398, "source": "drill:count-over:free:spec", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 399, "source": "drill:count-over:free:casual", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 400, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 625, "got": 625}}
+{"idx": 401, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 625, "got": 625}}
+{"idx": 402, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 625, "got": 625}}
+{"idx": 403, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 625, "got": 625}}
+{"idx": 404, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 287, "got": 287}}
+{"idx": 405, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 287, "got": 287}}
+{"idx": 406, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 287, "got": 287}}
+{"idx": 407, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 287, "got": 287}}
+{"idx": 408, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 492, "got": 492}}
+{"idx": 409, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 492, "got": 492}}
+{"idx": 410, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 492, "got": 492}}
+{"idx": 411, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 492, "got": 492}}
+{"idx": 412, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 501, "got": 501}}
+{"idx": 413, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 501, "got": 501}}
+{"idx": 414, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 501, "got": 501}}
+{"idx": 415, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 501, "got": 501}}
+{"idx": 416, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 339, "got": 339}}
+{"idx": 417, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 339, "got": 339}}
+{"idx": 418, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 339, "got": 339}}
+{"idx": 419, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 339, "got": 339}}
+{"idx": 420, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 795, "got": 795}}
+{"idx": 421, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 795, "got": 795}}
+{"idx": 422, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 795, "got": 795}}
+{"idx": 423, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 795, "got": 795}}
+{"idx": 424, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 625, "got": 625}}
+{"idx": 425, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 625, "got": 625}}
+{"idx": 426, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 625, "got": 625}}
+{"idx": 427, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 625, "got": 625}}
+{"idx": 428, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 593, "got": 593}}
+{"idx": 429, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 593, "got": 593}}
+{"idx": 430, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 593, "got": 593}}
+{"idx": 431, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 593, "got": 593}}
+{"idx": 432, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 406, "got": 406}}
+{"idx": 433, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 406, "got": 406}}
+{"idx": 434, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 406, "got": 406}}
+{"idx": 435, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 406, "got": 406}}
+{"idx": 436, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 460, "got": 460}}
+{"idx": 437, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 460, "got": 460}}
+{"idx": 438, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 460, "got": 460}}
+{"idx": 439, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 460, "got": 460}}
+{"idx": 440, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 643, "got": 643}}
+{"idx": 441, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 643, "got": 643}}
+{"idx": 442, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 643, "got": 643}}
+{"idx": 443, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 643, "got": 643}}
+{"idx": 444, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 669, "got": 669}}
+{"idx": 445, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 669, "got": 669}}
+{"idx": 446, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 669, "got": 669}}
+{"idx": 447, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 669, "got": 669}}
+{"idx": 448, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 684, "got": 684}}
+{"idx": 449, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 684, "got": 684}}
+{"idx": 450, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 684, "got": 684}}
+{"idx": 451, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 684, "got": 684}}
+{"idx": 452, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 691, "got": 691}}
+{"idx": 453, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 691, "got": 691}}
+{"idx": 454, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 691, "got": 691}}
+{"idx": 455, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 691, "got": 691}}
+{"idx": 456, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 532, "got": 532}}
+{"idx": 457, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 532, "got": 532}}
+{"idx": 458, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 532, "got": 532}}
+{"idx": 459, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 532, "got": 532}}
+{"idx": 460, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 650, "got": 650}}
+{"idx": 461, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 650, "got": 650}}
+{"idx": 462, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 650, "got": 650}}
+{"idx": 463, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 650, "got": 650}}
+{"idx": 464, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 723, "got": 723}}
+{"idx": 465, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 723, "got": 723}}
+{"idx": 466, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 723, "got": 723}}
+{"idx": 467, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 723, "got": 723}}
+{"idx": 468, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 650, "got": 650}}
+{"idx": 469, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 650, "got": 650}}
+{"idx": 470, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 650, "got": 650}}
+{"idx": 471, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 650, "got": 650}}
+{"idx": 472, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 653, "got": 653}}
+{"idx": 473, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 653, "got": 653}}
+{"idx": 474, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 653, "got": 653}}
+{"idx": 475, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 653, "got": 653}}
+{"idx": 476, "source": "drill:range:fixed:spec", "verify": {"kind": "run-verified", "expected": 781, "got": 781}}
+{"idx": 477, "source": "drill:range:fixed:casual", "verify": {"kind": "run-verified", "expected": 781, "got": 781}}
+{"idx": 478, "source": "drill:range:free:spec", "verify": {"kind": "run-verified", "expected": 781, "got": 781}}
+{"idx": 479, "source": "drill:range:free:casual", "verify": {"kind": "run-verified", "expected": 781, "got": 781}}
+{"idx": 480, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 946, "got": 946}}
+{"idx": 481, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 946, "got": 946}}
+{"idx": 482, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 946, "got": 946}}
+{"idx": 483, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 946, "got": 946}}
+{"idx": 484, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 1130, "got": 1130}}
+{"idx": 485, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 1130, "got": 1130}}
+{"idx": 486, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 1130, "got": 1130}}
+{"idx": 487, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 1130, "got": 1130}}
+{"idx": 488, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 1237, "got": 1237}}
+{"idx": 489, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 1237, "got": 1237}}
+{"idx": 490, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 1237, "got": 1237}}
+{"idx": 491, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 1237, "got": 1237}}
+{"idx": 492, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 1026, "got": 1026}}
+{"idx": 493, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 1026, "got": 1026}}
+{"idx": 494, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 1026, "got": 1026}}
+{"idx": 495, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 1026, "got": 1026}}
+{"idx": 496, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 835, "got": 835}}
+{"idx": 497, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 835, "got": 835}}
+{"idx": 498, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 835, "got": 835}}
+{"idx": 499, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 835, "got": 835}}
+{"idx": 500, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 1118, "got": 1118}}
+{"idx": 501, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 1118, "got": 1118}}
+{"idx": 502, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 1118, "got": 1118}}
+{"idx": 503, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 1118, "got": 1118}}
+{"idx": 504, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 1408, "got": 1408}}
+{"idx": 505, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 1408, "got": 1408}}
+{"idx": 506, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 1408, "got": 1408}}
+{"idx": 507, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 1408, "got": 1408}}
+{"idx": 508, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 1541, "got": 1541}}
+{"idx": 509, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 1541, "got": 1541}}
+{"idx": 510, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 1541, "got": 1541}}
+{"idx": 511, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 1541, "got": 1541}}
+{"idx": 512, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 1824, "got": 1824}}
+{"idx": 513, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 1824, "got": 1824}}
+{"idx": 514, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 1824, "got": 1824}}
+{"idx": 515, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 1824, "got": 1824}}
+{"idx": 516, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 1287, "got": 1287}}
+{"idx": 517, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 1287, "got": 1287}}
+{"idx": 518, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 1287, "got": 1287}}
+{"idx": 519, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 1287, "got": 1287}}
+{"idx": 520, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 1735, "got": 1735}}
+{"idx": 521, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 1735, "got": 1735}}
+{"idx": 522, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 1735, "got": 1735}}
+{"idx": 523, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 1735, "got": 1735}}
+{"idx": 524, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 2002, "got": 2002}}
+{"idx": 525, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 2002, "got": 2002}}
+{"idx": 526, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 2002, "got": 2002}}
+{"idx": 527, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 2002, "got": 2002}}
+{"idx": 528, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 2629, "got": 2629}}
+{"idx": 529, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 2629, "got": 2629}}
+{"idx": 530, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 2629, "got": 2629}}
+{"idx": 531, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 2629, "got": 2629}}
+{"idx": 532, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 2209, "got": 2209}}
+{"idx": 533, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 2209, "got": 2209}}
+{"idx": 534, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 2209, "got": 2209}}
+{"idx": 535, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 2209, "got": 2209}}
+{"idx": 536, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 1837, "got": 1837}}
+{"idx": 537, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 1837, "got": 1837}}
+{"idx": 538, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 1837, "got": 1837}}
+{"idx": 539, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 1837, "got": 1837}}
+{"idx": 540, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 1709, "got": 1709}}
+{"idx": 541, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 1709, "got": 1709}}
+{"idx": 542, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 1709, "got": 1709}}
+{"idx": 543, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 1709, "got": 1709}}
+{"idx": 544, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 2896, "got": 2896}}
+{"idx": 545, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 2896, "got": 2896}}
+{"idx": 546, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 2896, "got": 2896}}
+{"idx": 547, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 2896, "got": 2896}}
+{"idx": 548, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 2627, "got": 2627}}
+{"idx": 549, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 2627, "got": 2627}}
+{"idx": 550, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 2627, "got": 2627}}
+{"idx": 551, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 2627, "got": 2627}}
+{"idx": 552, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 1891, "got": 1891}}
+{"idx": 553, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 1891, "got": 1891}}
+{"idx": 554, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 1891, "got": 1891}}
+{"idx": 555, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 1891, "got": 1891}}
+{"idx": 556, "source": "drill:sum-abs:fixed:spec", "verify": {"kind": "run-verified", "expected": 2907, "got": 2907}}
+{"idx": 557, "source": "drill:sum-abs:fixed:casual", "verify": {"kind": "run-verified", "expected": 2907, "got": 2907}}
+{"idx": 558, "source": "drill:sum-abs:free:spec", "verify": {"kind": "run-verified", "expected": 2907, "got": 2907}}
+{"idx": 559, "source": "drill:sum-abs:free:casual", "verify": {"kind": "run-verified", "expected": 2907, "got": 2907}}
+{"idx": 560, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": -99, "got": -99}}
+{"idx": 561, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": -99, "got": -99}}
+{"idx": 562, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": -99, "got": -99}}
+{"idx": 563, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": -99, "got": -99}}
+{"idx": 564, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": 100, "got": 100}}
+{"idx": 565, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": 100, "got": 100}}
+{"idx": 566, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": 100, "got": 100}}
+{"idx": 567, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": 100, "got": 100}}
+{"idx": 568, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": 105, "got": 105}}
+{"idx": 569, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": 105, "got": 105}}
+{"idx": 570, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": 105, "got": 105}}
+{"idx": 571, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": 105, "got": 105}}
+{"idx": 572, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": 94, "got": 94}}
+{"idx": 573, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": 94, "got": 94}}
+{"idx": 574, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": 94, "got": 94}}
+{"idx": 575, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": 94, "got": 94}}
+{"idx": 576, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": 32, "got": 32}}
+{"idx": 577, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": 32, "got": 32}}
+{"idx": 578, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": 32, "got": 32}}
+{"idx": 579, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": 32, "got": 32}}
+{"idx": 580, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": -13, "got": -13}}
+{"idx": 581, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": -13, "got": -13}}
+{"idx": 582, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": -13, "got": -13}}
+{"idx": 583, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": -13, "got": -13}}
+{"idx": 584, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": -36, "got": -36}}
+{"idx": 585, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": -36, "got": -36}}
+{"idx": 586, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": -36, "got": -36}}
+{"idx": 587, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": -36, "got": -36}}
+{"idx": 588, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": -110, "got": -110}}
+{"idx": 589, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": -110, "got": -110}}
+{"idx": 590, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": -110, "got": -110}}
+{"idx": 591, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": -110, "got": -110}}
+{"idx": 592, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": 144, "got": 144}}
+{"idx": 593, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": 144, "got": 144}}
+{"idx": 594, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": 144, "got": 144}}
+{"idx": 595, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": 144, "got": 144}}
+{"idx": 596, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": 12, "got": 12}}
+{"idx": 597, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": 12, "got": 12}}
+{"idx": 598, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": 12, "got": 12}}
+{"idx": 599, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": 12, "got": 12}}
+{"idx": 600, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": -18, "got": -18}}
+{"idx": 601, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": -18, "got": -18}}
+{"idx": 602, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": -18, "got": -18}}
+{"idx": 603, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": -18, "got": -18}}
+{"idx": 604, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": 53, "got": 53}}
+{"idx": 605, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": 53, "got": 53}}
+{"idx": 606, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": 53, "got": 53}}
+{"idx": 607, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": 53, "got": 53}}
+{"idx": 608, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": -48, "got": -48}}
+{"idx": 609, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": -48, "got": -48}}
+{"idx": 610, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": -48, "got": -48}}
+{"idx": 611, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": -48, "got": -48}}
+{"idx": 612, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": 18, "got": 18}}
+{"idx": 613, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": 18, "got": 18}}
+{"idx": 614, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": 18, "got": 18}}
+{"idx": 615, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": 18, "got": 18}}
+{"idx": 616, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": -45, "got": -45}}
+{"idx": 617, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": -45, "got": -45}}
+{"idx": 618, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": -45, "got": -45}}
+{"idx": 619, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": -45, "got": -45}}
+{"idx": 620, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": -87, "got": -87}}
+{"idx": 621, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": -87, "got": -87}}
+{"idx": 622, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": -87, "got": -87}}
+{"idx": 623, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": -87, "got": -87}}
+{"idx": 624, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": -12, "got": -12}}
+{"idx": 625, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": -12, "got": -12}}
+{"idx": 626, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": -12, "got": -12}}
+{"idx": 627, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": -12, "got": -12}}
+{"idx": 628, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": 10, "got": 10}}
+{"idx": 629, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": 10, "got": 10}}
+{"idx": 630, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": 10, "got": 10}}
+{"idx": 631, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": 10, "got": 10}}
+{"idx": 632, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": 33, "got": 33}}
+{"idx": 633, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": 33, "got": 33}}
+{"idx": 634, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": 33, "got": 33}}
+{"idx": 635, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": 33, "got": 33}}
+{"idx": 636, "source": "drill:avg:fixed:spec", "verify": {"kind": "run-verified", "expected": -53, "got": -53}}
+{"idx": 637, "source": "drill:avg:fixed:casual", "verify": {"kind": "run-verified", "expected": -53, "got": -53}}
+{"idx": 638, "source": "drill:avg:free:spec", "verify": {"kind": "run-verified", "expected": -53, "got": -53}}
+{"idx": 639, "source": "drill:avg:free:casual", "verify": {"kind": "run-verified", "expected": -53, "got": -53}}
+{"idx": 640, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 641, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 642, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 643, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 644, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 645, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 646, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 647, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 648, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 649, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 650, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 651, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 652, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 653, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 654, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 655, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 656, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 657, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 658, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 659, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 660, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 661, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 662, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 663, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 664, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 665, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 666, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 667, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 668, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 669, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 670, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 671, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 672, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 673, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 674, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 675, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 676, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 677, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 678, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 679, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 680, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 681, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 682, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 683, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 684, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 685, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 686, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 687, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 688, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 689, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 690, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 691, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 692, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 693, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 694, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 695, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 696, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 697, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 698, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 699, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 700, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 701, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 702, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 703, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 7, "got": 7}}
+{"idx": 704, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 705, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 706, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 707, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 708, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 709, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 710, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 711, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 712, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 713, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 714, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 715, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 716, "source": "drill:idx-max:fixed:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 717, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 718, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 719, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
+{"idx": 720, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 721, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 722, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 723, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 724, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 725, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 726, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 727, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 728, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 729, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 730, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 731, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 732, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 733, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 734, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 735, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 736, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 737, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 738, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 739, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 740, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 741, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 742, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 743, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 744, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 745, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 746, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 747, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 748, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 749, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 750, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 751, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 752, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 753, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 754, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 755, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 756, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 757, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 758, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 759, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 760, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 761, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 762, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 763, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 764, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 765, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 766, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 767, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 768, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 769, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 770, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 771, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 772, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 773, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 774, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 775, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 776, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 777, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 778, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 779, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 780, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 781, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 782, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 783, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 784, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 785, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 786, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 787, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 788, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 789, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 790, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 791, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 792, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 793, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 794, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 795, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 796, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 797, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 798, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 799, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 800, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 801, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 802, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 803, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 804, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 805, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 806, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 807, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 808, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 809, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 810, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 811, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 812, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 813, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 814, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 815, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 816, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 817, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 818, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 819, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 820, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 821, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 822, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 823, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 824, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 825, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 826, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 827, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 828, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 829, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 830, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 831, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 832, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 833, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 834, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 835, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 836, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 837, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 838, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 839, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 840, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 841, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 842, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 843, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 844, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 845, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 846, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 847, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 848, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 849, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 850, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 851, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 852, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 853, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 854, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 855, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 856, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 857, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 858, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 859, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 860, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 861, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 862, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 863, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 864, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 865, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 866, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 867, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 868, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 869, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 870, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 871, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 872, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 873, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 874, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 875, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 876, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 877, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 878, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 879, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 880, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 881, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 882, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 883, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 884, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 885, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 886, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 887, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 888, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 889, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 890, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 891, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 892, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 893, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 894, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 895, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 896, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 897, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 898, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 899, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 900, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 901, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 902, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 903, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 904, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 905, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 906, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 907, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 908, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 909, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 910, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 911, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 912, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 913, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 914, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 915, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 916, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 917, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 918, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 919, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 920, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 921, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 922, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 923, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 924, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 925, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 926, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 927, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 928, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 929, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 930, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 931, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 932, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 933, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 934, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 935, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 936, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 937, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 938, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 939, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 940, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 941, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 942, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 943, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 944, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 945, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 946, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 947, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 948, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 949, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 950, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 951, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 952, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 953, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 954, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 955, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 956, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 957, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 958, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 959, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 960, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 961, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 962, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 963, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 964, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 965, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 966, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 967, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 968, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 969, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 970, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 971, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 972, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 973, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 974, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 975, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 976, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 977, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 978, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 979, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 980, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 981, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 982, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 983, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 984, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 985, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 986, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 987, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 988, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 989, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 990, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 991, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 992, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 993, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 994, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 995, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 996, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 997, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 998, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 999, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1000, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1001, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1002, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1003, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1004, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1005, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1006, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1007, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1008, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1009, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1010, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1011, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1012, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1013, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1014, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1015, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1016, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1017, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1018, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1019, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1020, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1021, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1022, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1023, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1024, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1025, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1026, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1027, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1028, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1029, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1030, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1031, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1032, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1033, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1034, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1035, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1036, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1037, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1038, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1039, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1040, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1041, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1042, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1043, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1044, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1045, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1046, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1047, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1048, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1049, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1050, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1051, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1052, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1053, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1054, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1055, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1056, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1057, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1058, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1059, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1060, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1061, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1062, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1063, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1064, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1065, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1066, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1067, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1068, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1069, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1070, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1071, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1072, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1073, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1074, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1075, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1076, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1077, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1078, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1079, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1080, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1081, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1082, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1083, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1084, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1085, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1086, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1087, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1088, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1089, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1090, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1091, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1092, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1093, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1094, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1095, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1096, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1097, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1098, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1099, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1100, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1101, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1102, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1103, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1104, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1105, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1106, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1107, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1108, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1109, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1110, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1111, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1112, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1113, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1114, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1115, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1116, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1117, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1118, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1119, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1120, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1121, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1122, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1123, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1124, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1125, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1126, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1127, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1128, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1129, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1130, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1131, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1132, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1133, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1134, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1135, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1136, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1137, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1138, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1139, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1140, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1141, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1142, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1143, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1144, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1145, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1146, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1147, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1148, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1149, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1150, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1151, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1152, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1153, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1154, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1155, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1156, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1157, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1158, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1159, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1160, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1161, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1162, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1163, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1164, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1165, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1166, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1167, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1168, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1169, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1170, "source": "peel:peel-api-contract-cobol-bank-reconcile", "verify": {"kind": "proven-peel"}}
+{"idx": 1171, "source": "peel:peel-data-format-cobol-comp3", "verify": {"kind": "proven-peel"}}
+{"idx": 1172, "source": "peel:peel-renderer-recipe-cobol-raw-rgb24", "verify": {"kind": "proven-peel"}}
+{"idx": 1173, "source": "peel:peel-self-heal-cobol-shared-counter", "verify": {"kind": "proven-peel"}}
+{"idx": 1174, "source": "peel:peel-self-heal-cobol-goto-perform-range", "verify": {"kind": "proven-peel"}}
+{"idx": 1175, "source": "peel:peel-capability-cobol-perslis-run-lane", "verify": {"kind": "proven-peel"}}
+{"idx": 1176, "source": "peel:peel-capability-cobol-ansi256-raster", "verify": {"kind": "proven-peel"}}
+{"idx": 1177, "source": "peel:peel-capability-cobol-fixed-point-trig", "verify": {"kind": "proven-peel"}}
+{"idx": 1178, "source": "peel:peel-data-format-cobol-sprite-bitmap", "verify": {"kind": "proven-peel"}}
+{"idx": 1179, "source": "peel:peel-capability-cobol-raycast-dda", "verify": {"kind": "proven-peel"}}
+{"idx": 1180, "source": "peel:peel-capability-cobol-first-person-shooter", "verify": {"kind": "proven-peel"}}
+{"idx": 1181, "source": "peel:cobol-vsam-ksds-keyed-access", "verify": {"kind": "proven-peel"}}
+{"idx": 1182, "source": "peel:cobol-esql-sqlite-cursor", "verify": {"kind": "proven-peel"}}
+{"idx": 1183, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
+{"idx": 1184, "source": "atom:produces", "verify": {"kind": "floor-atom"}}
+{"idx": 1185, "source": "atom:can_do", "verify": {"kind": "floor-atom"}}
+{"idx": 1186, "source": "atom:can_do", "verify": {"kind": "floor-atom"}}
+{"idx": 1187, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1188, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1189, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1190, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1191, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1192, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1193, "source": "atom:produces", "verify": {"kind": "floor-atom"}}
+{"idx": 1194, "source": "atom:depends_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1195, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1196, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1197, "source": "atom:packs_to", "verify": {"kind": "floor-atom"}}
+{"idx": 1198, "source": "atom:produces", "verify": {"kind": "floor-atom"}}
+{"idx": 1199, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1200, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1201, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1202, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1203, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1204, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1205, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1206, "source": "atom:packs_to", "verify": {"kind": "floor-atom"}}
+{"idx": 1207, "source": "atom:requires", "verify": {"kind": "floor-atom"}}
+{"idx": 1208, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1209, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
+{"idx": 1210, "source": "atom:part_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1211, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1212, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
+{"idx": 1213, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
+{"idx": 1214, "source": "atom:belongs_to", "verify": {"kind": "floor-atom"}}
+{"idx": 1215, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1216, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
+{"idx": 1217, "source": "atom:produces", "verify": {"kind": "floor-atom"}}
+{"idx": 1218, "source": "atom:can_do", "verify": {"kind": "floor-atom"}}
+{"idx": 1219, "source": "atom:enables", "verify": {"kind": "floor-atom"}}
+{"idx": 1220, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1221, "source": "atom:depends_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1222, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1223, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
+{"idx": 1224, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
+{"idx": 1225, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1226, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1227, "source": "atom:works_in", "verify": {"kind": "floor-atom"}}
+{"idx": 1228, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1229, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1230, "source": "atom:instance_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1231, "source": "atom:differs_from", "verify": {"kind": "floor-atom"}}
+{"idx": 1232, "source": "atom:requires", "verify": {"kind": "floor-atom"}}
+{"idx": 1233, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1234, "source": "atom:can_do", "verify": {"kind": "floor-atom"}}
+{"idx": 1235, "source": "atom:requires", "verify": {"kind": "floor-atom"}}
+{"idx": 1236, "source": "atom:prevents", "verify": {"kind": "floor-atom"}}
+{"idx": 1237, "source": "atom:produces", "verify": {"kind": "floor-atom"}}
+{"idx": 1238, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1239, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1240, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1241, "source": "atom:part_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1242, "source": "atom:belongs_to", "verify": {"kind": "floor-atom"}}
+{"idx": 1243, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1244, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1245, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1246, "source": "fighter:bug-fix", "verify": {"kind": "real-session-diagnostic"}}
+{"idx": 1247, "source": "fighter:bug-fix", "verify": {"kind": "real-session-diagnostic"}}
+{"idx": 1248, "source": "fighter:bug-fix", "verify": {"kind": "real-session-diagnostic"}}
+{"idx": 1249, "source": "proof:peel-capability-cobol-fixed-point-trig.cob", "verify": {"kind": "compile-verified", "free_format": true}}
+{"idx": 1250, "source": "proof:peel-data-format-cobol-sprite-bitmap.cob", "verify": {"kind": "compile-verified", "free_format": true}}
+{"idx": 1251, "source": "proof:peel-capability-cobol-ansi256-raster.cob", "verify": {"kind": "compile-verified", "free_format": true}}
+{"idx": 1252, "source": "proof:peel-capability-cobol-raycast-dda.cob", "verify": {"kind": "compile-verified", "free_format": true}}

@@ -1,0 +1,12 @@
+{
+  "drills": 720,
+  "drill_rejects": 0,
+  "mutations": 450,
+  "peels": 13,
+  "atoms": 63,
+  "fighter": 3,
+  "proof_programs": 4,
+  "total": 1253,
+  "train": 1191,
+  "valid": 62
+}
