@@ -15,3 +15,7 @@ eval/venv/
 eval/COBOLEval/
 eval/*.log
 *.raw
+train/venv/
+train/adapters/
+train/llama.cpp/
+train/fused/
