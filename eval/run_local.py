@@ -63,7 +63,34 @@ def extract(reply):
     # drop any prose before the first division header
     idx = src.upper().index("IDENTIFICATION DIVISION")
     line_start = src.rfind("\n", 0, idx) + 1
-    return src[line_start:]
+    return fix_section_order(src[line_start:])
+
+
+def fix_section_order(src):
+    """The upstream skeleton puts WORKING-STORAGE after LINKAGE (invalid in
+    GnuCOBOL) and models echo it verbatim. Deterministically reorder:
+    WORKING-STORAGE block moves to just before LINKAGE SECTION.
+    Model-agnostic normalization — applied to every model equally.
+    Line-based and comment-aware: the skeleton's own comment mentions both
+    section names, so substring search alone matches the wrong line."""
+    lines = src.split("\n")
+
+    def is_comment(l):
+        return (len(l) > 6 and l[6] == "*") or l.lstrip().startswith("*>")
+
+    def find_line(needle):
+        for i, l in enumerate(lines):
+            if needle in l.upper() and not is_comment(l):
+                return i
+        return -1
+
+    ls = find_line("LINKAGE SECTION")
+    ws = find_line("WORKING-STORAGE SECTION")
+    pd = find_line("PROCEDURE DIVISION")
+    if ls == -1 or ws == -1 or pd == -1 or ws < ls or not (ls < ws < pd):
+        return src  # already fine (or shape too odd to touch)
+    reordered = lines[:ls] + lines[ws:pd] + lines[ls:ws] + lines[pd:]
+    return "\n".join(reordered)
 
 
 def main():

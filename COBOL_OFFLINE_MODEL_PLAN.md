@@ -107,6 +107,32 @@ Directly validated recipe (it's literally how COBOL-Coder built its corpus):
   TinkyMind wrapper shape from tinkybink-dashboard/apps/tinkyspeak/src/lib/tinkymind).
   Optional: register as a kist MCP tool (remember the toolEffects gate).
 
+## R1 RESULTS (2026-07-28) — baseline measured
+
+25-task COBOLEval subset, temperature 0, strict scoring + one model-agnostic
+normalization (the upstream skeleton's invalid WORKING-STORAGE-after-LINKAGE
+order is mechanically reordered; the benchmark's own prompt invites the error):
+
+| model | compile rate | Pass@1 |
+|---|---|---|
+| qwen2.5-coder:7b (raw) | **0/25 (0%)** | 0% |
+| cobol-jeeves (R0 grounded) | **2/25 (8%)** | 0% |
+| COBOL-Coder-7B (paper, full 146) | 73.8% | 44.7 |
+| GPT-4o (paper) | 41.8% | 16.4 |
+
+Replicates the paper's "raw open models ≈ 0% CSR" finding — harness works,
+gap quantified. Failure histogram (dominant first): `level number must begin
+with 01 or 77` (declaring 05-items at root in WORKING-STORAGE), undefined
+identifiers, missing period before END PROGRAM (+period tier recovers only
+2/25 — it's not the main blocker). Grounding via game-domain peels doesn't
+teach general syntax discipline — expected, and it tells R2 exactly what the
+dataset must contain:
+
+1. every pair's completion = full compilable subprogram, standard section order
+2. drill 01/77-level declaration discipline and sentence-final periods
+3. include LINKAGE + PROCEDURE DIVISION USING subprogram calling-convention
+   examples (the COBOLEval shape, which is also the real-world subprogram shape)
+
 ## Honest ledger from the research run
 
 - **Refuted (0-3 / 1-2):** "LoRA gives 80-90% of full-FT at 10-20% cost" (not in the cited
