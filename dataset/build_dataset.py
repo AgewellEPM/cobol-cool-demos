@@ -271,6 +271,107 @@ def build_drills():
     return made, failed
 
 
+# ------------------------------------------------------ string drill family
+
+STR_OPS = {
+    "length": ("return the length (excluding trailing spaces) of",
+               lambda s: len(s.rstrip())),
+    "count-char": ("count occurrences of the character 'A' in",
+                   lambda s: s.count("A")),
+    "count-vowels": ("count the vowels (A E I O U) in",
+                     lambda s: sum(1 for c in s if c in "AEIOU")),
+}
+
+STR_SAMPLES = ["BANANA REPORT", "ACCOUNT AA", "MAINFRAME", "COBOL RULES",
+               "ABEND CODE A", "VSAM MASTER", "AAA", "LEDGER BATCH"]
+
+
+def str_subprogram(pid, op_key):
+    body = {
+        "length": [
+            "           MOVE FUNCTION STORED-CHAR-LENGTH (L-STR) TO RESULT"],
+        "count-char": [
+            "           MOVE 0 TO RESULT",
+            "           INSPECT L-STR TALLYING RESULT",
+            "               FOR ALL \"A\""],
+        "count-vowels": [
+            "           MOVE 0 TO RESULT",
+            "           PERFORM VARYING WS-I FROM 1 BY 1 UNTIL WS-I > 20",
+            "               IF L-STR(WS-I:1) = \"A\" OR L-STR(WS-I:1) = \"E\"",
+            "                   OR L-STR(WS-I:1) = \"I\"",
+            "                   OR L-STR(WS-I:1) = \"O\"",
+            "                   OR L-STR(WS-I:1) = \"U\"",
+            "                   ADD 1 TO RESULT",
+            "               END-IF",
+            "           END-PERFORM"],
+    }[op_key]
+    ws = "       01 WS-I PIC 9(4).\n" if op_key == "count-vowels" else ""
+    body_txt = "\n".join(body)
+    return f"""\
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. {pid}.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+{ws}       LINKAGE SECTION.
+       01 LINKED-ITEMS.
+           05 L-STR PIC X(20).
+           05 RESULT PIC S9(9).
+       PROCEDURE DIVISION USING LINKED-ITEMS.
+{body_txt}
+           GOBACK.
+       END PROGRAM {pid}.
+"""
+
+
+def str_caller(pid, text):
+    return f"""\
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. {pid}-CALL.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 LINKED-ITEMS.
+           05 L-STR PIC X(20).
+           05 RESULT PIC S9(9).
+       01 SHOW PIC +9(9).
+       PROCEDURE DIVISION.
+           MOVE "{text}" TO L-STR
+           CALL "{pid}" USING LINKED-ITEMS
+           MOVE RESULT TO SHOW
+           DISPLAY SHOW
+           STOP RUN.
+"""
+
+
+def build_string_drills():
+    made = failed = 0
+    for op_key, (phrase, pyfn) in STR_OPS.items():
+        for text in STR_SAMPLES:
+            pid = f"STR-{op_key.upper().replace('-', '')[:9]}-{sum(map(ord, text)) % 97}"
+            sub = str_subprogram(pid, op_key)
+            caller = str_caller(pid, text)
+            expected = pyfn(text.ljust(20))
+            for fmt in ("fixed", "free"):
+                s = sub if fmt == "fixed" else to_free_format(sub)
+                c = caller if fmt == "fixed" else to_free_format(caller)
+                ok, out, err = run_pair(s, c, free=(fmt == "free"))
+                got = int(out.replace("+", "")) if ok and out else None
+                if not ok or got != expected:
+                    failed += 1
+                    continue
+                fmt_word = "fixed-format" if fmt == "fixed" else "free-format (cobc -x -free)"
+                instr = (
+                    f"Write a {fmt_word} GnuCOBOL 3.2 subprogram named {pid} that "
+                    f"{phrase} a PIC X(20) text field passed via LINKAGE "
+                    f"(05 L-STR PIC X(20), then 05 RESULT PIC S9(9) under "
+                    f"LINKED-ITEMS), storing the count in RESULT. "
+                    f"PROCEDURE DIVISION USING LINKED-ITEMS; end with END PROGRAM."
+                )
+                add(instr, f"```cobol\n{s}```", f"strdrill:{op_key}:{fmt}",
+                    {"kind": "run-verified", "expected": expected, "got": got})
+                made += 1
+    return made, failed
+
+
 # ------------------------------------------------------- mutation factory
 
 def swap_sections(src):
@@ -506,6 +607,7 @@ def proof_program_pairs():
 def main():
     counts = {}
     counts["drills"], counts["drill_rejects"] = build_drills()
+    counts["str_drills"], counts["str_rejects"] = build_string_drills()
     counts["mutations"] = mutate_pairs()
     counts["peels"] = peel_pairs()
     counts["atoms"] = atom_pairs()

@@ -718,536 +718,584 @@
 {"idx": 717, "source": "drill:idx-max:fixed:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
 {"idx": 718, "source": "drill:idx-max:free:spec", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
 {"idx": 719, "source": "drill:idx-max:free:casual", "verify": {"kind": "run-verified", "expected": 6, "got": 6}}
-{"idx": 720, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 721, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 722, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 723, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 724, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 725, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 726, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 727, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 728, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 729, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 730, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 731, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 732, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 733, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 734, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 735, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 736, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 737, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 738, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 739, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 740, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 741, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 742, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 743, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 744, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 745, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 746, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 747, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 748, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 749, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 750, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 751, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 752, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 753, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 754, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 755, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 756, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 757, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 758, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 759, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 760, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 761, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 762, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 763, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 764, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 765, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 766, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 767, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 768, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 769, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 770, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 771, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 772, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 773, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 774, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 775, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 776, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 777, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 778, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 779, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 780, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 781, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 782, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 783, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 784, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 785, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 786, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 787, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 788, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 789, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 790, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 791, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 792, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 793, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 794, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 795, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 796, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 797, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 798, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 799, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 800, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 801, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 802, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 803, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 804, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 805, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 806, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 807, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 808, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 809, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 810, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 811, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 812, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 813, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 814, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 815, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 816, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 817, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 818, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 819, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 820, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 821, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 822, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 823, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 824, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 825, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 826, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 827, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 828, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 829, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 830, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 831, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 832, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 833, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 834, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 835, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 836, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 837, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 838, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 839, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 840, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 841, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 842, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 843, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 844, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 845, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 846, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 847, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 848, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 849, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 850, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 851, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 852, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 853, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 854, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 855, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 856, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 857, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 858, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 859, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 860, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 861, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 862, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 863, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 864, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 865, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 866, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 867, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 868, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 869, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 870, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 871, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 872, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 873, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 874, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 875, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 876, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 877, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 878, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 879, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 880, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 881, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 882, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 883, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 884, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 885, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 886, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 887, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 888, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 889, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 890, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 891, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 892, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 893, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 894, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 895, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 896, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 897, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 898, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 899, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 900, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 901, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 902, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 903, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 904, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 905, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 906, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 907, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 908, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 909, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 910, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 911, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 912, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 913, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 914, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 915, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 916, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 917, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 918, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 919, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 920, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 921, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 922, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 923, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 924, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 925, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 926, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 927, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 928, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 929, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 930, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 931, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 932, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 933, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 934, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 935, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 936, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 937, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 938, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 939, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 940, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 941, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 942, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 943, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 944, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 945, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 946, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 947, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 948, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 949, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 950, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 951, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 952, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 953, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 954, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 955, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 956, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 957, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 958, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 959, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 960, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 961, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 962, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 963, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 964, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 965, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 966, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 967, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 968, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 969, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 970, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 971, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 972, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 973, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 974, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 975, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 976, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 977, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 978, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 979, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 980, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 981, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 982, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 983, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 984, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 985, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 986, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 987, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 988, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 989, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 990, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 991, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 992, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 993, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 994, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 995, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 996, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 997, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 998, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 999, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1000, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1001, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1002, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1003, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1004, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1005, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1006, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1007, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1008, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1009, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1010, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1011, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1012, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1013, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1014, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1015, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1016, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1017, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1018, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1019, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1020, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1021, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1022, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1023, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1024, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1025, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1026, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1027, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1028, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1029, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1030, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1031, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1032, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1033, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1034, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1035, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1036, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1037, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1038, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1039, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1040, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1041, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1042, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1043, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1044, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1045, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1046, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1047, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1048, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1049, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1050, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1051, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1052, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1053, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1054, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1055, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1056, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1057, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1058, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1059, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1060, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1061, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1062, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1063, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1064, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1065, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1066, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1067, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1068, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1069, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1070, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1071, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1072, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1073, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1074, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1075, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1076, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1077, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1078, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1079, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1080, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1081, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1082, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1083, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1084, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1085, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1086, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1087, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1088, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1089, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1090, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1091, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1092, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1093, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1094, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1095, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1096, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1097, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1098, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1099, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1100, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1101, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1102, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1103, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1104, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1105, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1106, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1107, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1108, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1109, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1110, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1111, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1112, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1113, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1114, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1115, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1116, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1117, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1118, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1119, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1120, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1121, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1122, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1123, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1124, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1125, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1126, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1127, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1128, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1129, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1130, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1131, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1132, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1133, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1134, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1135, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1136, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1137, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1138, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1139, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1140, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1141, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1142, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1143, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1144, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1145, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1146, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1147, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1148, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1149, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1150, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1151, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1152, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1153, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1154, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1155, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1156, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1157, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1158, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1159, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1160, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1161, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1162, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1163, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1164, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1165, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
-{"idx": 1166, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
-{"idx": 1167, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
-{"idx": 1168, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
-{"idx": 1169, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
-{"idx": 1170, "source": "peel:peel-api-contract-cobol-bank-reconcile", "verify": {"kind": "proven-peel"}}
-{"idx": 1171, "source": "peel:peel-data-format-cobol-comp3", "verify": {"kind": "proven-peel"}}
-{"idx": 1172, "source": "peel:peel-renderer-recipe-cobol-raw-rgb24", "verify": {"kind": "proven-peel"}}
-{"idx": 1173, "source": "peel:peel-self-heal-cobol-shared-counter", "verify": {"kind": "proven-peel"}}
-{"idx": 1174, "source": "peel:peel-self-heal-cobol-goto-perform-range", "verify": {"kind": "proven-peel"}}
-{"idx": 1175, "source": "peel:peel-capability-cobol-perslis-run-lane", "verify": {"kind": "proven-peel"}}
-{"idx": 1176, "source": "peel:peel-capability-cobol-ansi256-raster", "verify": {"kind": "proven-peel"}}
-{"idx": 1177, "source": "peel:peel-capability-cobol-fixed-point-trig", "verify": {"kind": "proven-peel"}}
-{"idx": 1178, "source": "peel:peel-data-format-cobol-sprite-bitmap", "verify": {"kind": "proven-peel"}}
-{"idx": 1179, "source": "peel:peel-capability-cobol-raycast-dda", "verify": {"kind": "proven-peel"}}
-{"idx": 1180, "source": "peel:peel-capability-cobol-first-person-shooter", "verify": {"kind": "proven-peel"}}
-{"idx": 1181, "source": "peel:cobol-vsam-ksds-keyed-access", "verify": {"kind": "proven-peel"}}
-{"idx": 1182, "source": "peel:cobol-esql-sqlite-cursor", "verify": {"kind": "proven-peel"}}
-{"idx": 1183, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
-{"idx": 1184, "source": "atom:produces", "verify": {"kind": "floor-atom"}}
-{"idx": 1185, "source": "atom:can_do", "verify": {"kind": "floor-atom"}}
-{"idx": 1186, "source": "atom:can_do", "verify": {"kind": "floor-atom"}}
-{"idx": 1187, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
-{"idx": 1188, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
-{"idx": 1189, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
-{"idx": 1190, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
-{"idx": 1191, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
-{"idx": 1192, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
-{"idx": 1193, "source": "atom:produces", "verify": {"kind": "floor-atom"}}
-{"idx": 1194, "source": "atom:depends_on", "verify": {"kind": "floor-atom"}}
-{"idx": 1195, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
-{"idx": 1196, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
-{"idx": 1197, "source": "atom:packs_to", "verify": {"kind": "floor-atom"}}
-{"idx": 1198, "source": "atom:produces", "verify": {"kind": "floor-atom"}}
-{"idx": 1199, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
-{"idx": 1200, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
-{"idx": 1201, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
-{"idx": 1202, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
-{"idx": 1203, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
-{"idx": 1204, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
-{"idx": 1205, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
-{"idx": 1206, "source": "atom:packs_to", "verify": {"kind": "floor-atom"}}
-{"idx": 1207, "source": "atom:requires", "verify": {"kind": "floor-atom"}}
-{"idx": 1208, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
-{"idx": 1209, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
-{"idx": 1210, "source": "atom:part_of", "verify": {"kind": "floor-atom"}}
-{"idx": 1211, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
-{"idx": 1212, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
-{"idx": 1213, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
-{"idx": 1214, "source": "atom:belongs_to", "verify": {"kind": "floor-atom"}}
-{"idx": 1215, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
-{"idx": 1216, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
-{"idx": 1217, "source": "atom:produces", "verify": {"kind": "floor-atom"}}
-{"idx": 1218, "source": "atom:can_do", "verify": {"kind": "floor-atom"}}
-{"idx": 1219, "source": "atom:enables", "verify": {"kind": "floor-atom"}}
-{"idx": 1220, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
-{"idx": 1221, "source": "atom:depends_on", "verify": {"kind": "floor-atom"}}
-{"idx": 1222, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
-{"idx": 1223, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
-{"idx": 1224, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
-{"idx": 1225, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
-{"idx": 1226, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
-{"idx": 1227, "source": "atom:works_in", "verify": {"kind": "floor-atom"}}
-{"idx": 1228, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
-{"idx": 1229, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
-{"idx": 1230, "source": "atom:instance_of", "verify": {"kind": "floor-atom"}}
-{"idx": 1231, "source": "atom:differs_from", "verify": {"kind": "floor-atom"}}
-{"idx": 1232, "source": "atom:requires", "verify": {"kind": "floor-atom"}}
-{"idx": 1233, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
+{"idx": 720, "source": "strdrill:length:fixed", "verify": {"kind": "run-verified", "expected": 13, "got": 13}}
+{"idx": 721, "source": "strdrill:length:free", "verify": {"kind": "run-verified", "expected": 13, "got": 13}}
+{"idx": 722, "source": "strdrill:length:fixed", "verify": {"kind": "run-verified", "expected": 10, "got": 10}}
+{"idx": 723, "source": "strdrill:length:free", "verify": {"kind": "run-verified", "expected": 10, "got": 10}}
+{"idx": 724, "source": "strdrill:length:fixed", "verify": {"kind": "run-verified", "expected": 9, "got": 9}}
+{"idx": 725, "source": "strdrill:length:free", "verify": {"kind": "run-verified", "expected": 9, "got": 9}}
+{"idx": 726, "source": "strdrill:length:fixed", "verify": {"kind": "run-verified", "expected": 11, "got": 11}}
+{"idx": 727, "source": "strdrill:length:free", "verify": {"kind": "run-verified", "expected": 11, "got": 11}}
+{"idx": 728, "source": "strdrill:length:fixed", "verify": {"kind": "run-verified", "expected": 12, "got": 12}}
+{"idx": 729, "source": "strdrill:length:free", "verify": {"kind": "run-verified", "expected": 12, "got": 12}}
+{"idx": 730, "source": "strdrill:length:fixed", "verify": {"kind": "run-verified", "expected": 11, "got": 11}}
+{"idx": 731, "source": "strdrill:length:free", "verify": {"kind": "run-verified", "expected": 11, "got": 11}}
+{"idx": 732, "source": "strdrill:length:fixed", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 733, "source": "strdrill:length:free", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 734, "source": "strdrill:length:fixed", "verify": {"kind": "run-verified", "expected": 12, "got": 12}}
+{"idx": 735, "source": "strdrill:length:free", "verify": {"kind": "run-verified", "expected": 12, "got": 12}}
+{"idx": 736, "source": "strdrill:count-char:fixed", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 737, "source": "strdrill:count-char:free", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 738, "source": "strdrill:count-char:fixed", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 739, "source": "strdrill:count-char:free", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 740, "source": "strdrill:count-char:fixed", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 741, "source": "strdrill:count-char:free", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 742, "source": "strdrill:count-char:fixed", "verify": {"kind": "run-verified", "expected": 0, "got": 0}}
+{"idx": 743, "source": "strdrill:count-char:free", "verify": {"kind": "run-verified", "expected": 0, "got": 0}}
+{"idx": 744, "source": "strdrill:count-char:fixed", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 745, "source": "strdrill:count-char:free", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 746, "source": "strdrill:count-char:fixed", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 747, "source": "strdrill:count-char:free", "verify": {"kind": "run-verified", "expected": 2, "got": 2}}
+{"idx": 748, "source": "strdrill:count-char:fixed", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 749, "source": "strdrill:count-char:free", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 750, "source": "strdrill:count-char:fixed", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 751, "source": "strdrill:count-char:free", "verify": {"kind": "run-verified", "expected": 1, "got": 1}}
+{"idx": 752, "source": "strdrill:count-vowels:fixed", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 753, "source": "strdrill:count-vowels:free", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 754, "source": "strdrill:count-vowels:fixed", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 755, "source": "strdrill:count-vowels:free", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 756, "source": "strdrill:count-vowels:fixed", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 757, "source": "strdrill:count-vowels:free", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 758, "source": "strdrill:count-vowels:fixed", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 759, "source": "strdrill:count-vowels:free", "verify": {"kind": "run-verified", "expected": 4, "got": 4}}
+{"idx": 760, "source": "strdrill:count-vowels:fixed", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 761, "source": "strdrill:count-vowels:free", "verify": {"kind": "run-verified", "expected": 5, "got": 5}}
+{"idx": 762, "source": "strdrill:count-vowels:fixed", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 763, "source": "strdrill:count-vowels:free", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 764, "source": "strdrill:count-vowels:fixed", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 765, "source": "strdrill:count-vowels:free", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 766, "source": "strdrill:count-vowels:fixed", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 767, "source": "strdrill:count-vowels:free", "verify": {"kind": "run-verified", "expected": 3, "got": 3}}
+{"idx": 768, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 769, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 770, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 771, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 772, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 773, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 774, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 775, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 776, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 777, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 778, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 779, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 780, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 781, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 782, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 783, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 784, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 785, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 786, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 787, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 788, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 789, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 790, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 791, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 792, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 793, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 794, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 795, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 796, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 797, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 798, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 799, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 800, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 801, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 802, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 803, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 804, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 805, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 806, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 807, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 808, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 809, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 810, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 811, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 812, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 813, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 814, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 815, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 816, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 817, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 818, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 819, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 820, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 821, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 822, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 823, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 824, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 825, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 826, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 827, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 828, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 829, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 830, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 831, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 832, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 833, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 834, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 835, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 836, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 837, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 838, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 839, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 840, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 841, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 842, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 843, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 844, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 845, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 846, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 847, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 848, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 849, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 850, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 851, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 852, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 853, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 854, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 855, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 856, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 857, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 858, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 859, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 860, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 861, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 862, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 863, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 864, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 865, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 866, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 867, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 868, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 869, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 870, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 871, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 872, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 873, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 874, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 875, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 876, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 877, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 878, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 879, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 880, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 881, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 882, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 883, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 884, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 885, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 886, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 887, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 888, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 889, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 890, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 891, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 892, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 893, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 894, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 895, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 896, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 897, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 898, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 899, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 900, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 901, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 902, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 903, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 904, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 905, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 906, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 907, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 908, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 909, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 910, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 911, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 912, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 913, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 914, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 915, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 916, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 917, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 918, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 919, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 920, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 921, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 922, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 923, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 924, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 925, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 926, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 927, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 928, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 929, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 930, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 931, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 932, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 933, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 934, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 935, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 936, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 937, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 938, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 939, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 940, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 941, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 942, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 943, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 944, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 945, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 946, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 947, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 948, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 949, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 950, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 951, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 952, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 953, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 954, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 955, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 956, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 957, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 958, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 959, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 960, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 961, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 962, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 963, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 964, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 965, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 966, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 967, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 968, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 969, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 970, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 971, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 972, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 973, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 974, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 975, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 976, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 977, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 978, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 979, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 980, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 981, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 982, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 983, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 984, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 985, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 986, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 987, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 988, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 989, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 990, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 991, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 992, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 993, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 994, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 995, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 996, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 997, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 998, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 999, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1000, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1001, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1002, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1003, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1004, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1005, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1006, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1007, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1008, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1009, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1010, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1011, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1012, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1013, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1014, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1015, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1016, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1017, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1018, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1019, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1020, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1021, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1022, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1023, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1024, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1025, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1026, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1027, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1028, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1029, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1030, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1031, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1032, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1033, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1034, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1035, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1036, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1037, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1038, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1039, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1040, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1041, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1042, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1043, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1044, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1045, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1046, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1047, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1048, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1049, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1050, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1051, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1052, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1053, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1054, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1055, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1056, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1057, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1058, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1059, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1060, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1061, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1062, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1063, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1064, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1065, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1066, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1067, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1068, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1069, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1070, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1071, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1072, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1073, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1074, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1075, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1076, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1077, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1078, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1079, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1080, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1081, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1082, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1083, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1084, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1085, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1086, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1087, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1088, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1089, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1090, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1091, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1092, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1093, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1094, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1095, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1096, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1097, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1098, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1099, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1100, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1101, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1102, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1103, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1104, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1105, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1106, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1107, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1108, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1109, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1110, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1111, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1112, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1113, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1114, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1115, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1116, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1117, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1118, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1119, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1120, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1121, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1122, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1123, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1124, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1125, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1126, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1127, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1128, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1129, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1130, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1131, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1132, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1133, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1134, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1135, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1136, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1137, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:13: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1138, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1139, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1140, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1141, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1142, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1143, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1144, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1145, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1146, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1147, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1148, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1149, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1150, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1151, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1152, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1153, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1154, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1155, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1156, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1157, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1158, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1159, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1160, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1161, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1162, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1163, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1164, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1165, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1166, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1167, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1168, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1169, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1170, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1171, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1172, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1173, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:20: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1174, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1175, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1176, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1177, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1178, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1179, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1180, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1181, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1182, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1183, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1184, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1185, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1186, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1187, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1188, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:25: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1189, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1190, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1191, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1192, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:15: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1193, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1194, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1195, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1196, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1197, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1198, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:18: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1199, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1200, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1201, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1202, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1203, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1204, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1205, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1206, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1207, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1208, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1209, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1210, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1211, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1212, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1213, "source": "mutation:missing-period", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:16: error: syntax error, unexpected END PROGRAM"}}
+{"idx": 1214, "source": "mutation:level-05-at-root", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: level number must begin with 01 or 77"}}
+{"idx": 1215, "source": "mutation:reserved-word", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:5: error: syntax error, unexpected SUM"}}
+{"idx": 1216, "source": "mutation:section-order", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:8: error: PROCEDURE DIVISION header missing"}}
+{"idx": 1217, "source": "mutation:missing-end-perform", "verify": {"kind": "broken-fails-fixed-passes", "error": "p.cbl:12: error: PERFORM statement not terminated by END-PERFORM"}}
+{"idx": 1218, "source": "peel:peel-api-contract-cobol-bank-reconcile", "verify": {"kind": "proven-peel"}}
+{"idx": 1219, "source": "peel:peel-data-format-cobol-comp3", "verify": {"kind": "proven-peel"}}
+{"idx": 1220, "source": "peel:peel-renderer-recipe-cobol-raw-rgb24", "verify": {"kind": "proven-peel"}}
+{"idx": 1221, "source": "peel:peel-self-heal-cobol-shared-counter", "verify": {"kind": "proven-peel"}}
+{"idx": 1222, "source": "peel:peel-self-heal-cobol-goto-perform-range", "verify": {"kind": "proven-peel"}}
+{"idx": 1223, "source": "peel:peel-capability-cobol-perslis-run-lane", "verify": {"kind": "proven-peel"}}
+{"idx": 1224, "source": "peel:peel-capability-cobol-ansi256-raster", "verify": {"kind": "proven-peel"}}
+{"idx": 1225, "source": "peel:peel-capability-cobol-fixed-point-trig", "verify": {"kind": "proven-peel"}}
+{"idx": 1226, "source": "peel:peel-data-format-cobol-sprite-bitmap", "verify": {"kind": "proven-peel"}}
+{"idx": 1227, "source": "peel:peel-capability-cobol-raycast-dda", "verify": {"kind": "proven-peel"}}
+{"idx": 1228, "source": "peel:peel-capability-cobol-first-person-shooter", "verify": {"kind": "proven-peel"}}
+{"idx": 1229, "source": "peel:cobol-vsam-ksds-keyed-access", "verify": {"kind": "proven-peel"}}
+{"idx": 1230, "source": "peel:cobol-esql-sqlite-cursor", "verify": {"kind": "proven-peel"}}
+{"idx": 1231, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
+{"idx": 1232, "source": "atom:produces", "verify": {"kind": "floor-atom"}}
+{"idx": 1233, "source": "atom:can_do", "verify": {"kind": "floor-atom"}}
 {"idx": 1234, "source": "atom:can_do", "verify": {"kind": "floor-atom"}}
-{"idx": 1235, "source": "atom:requires", "verify": {"kind": "floor-atom"}}
-{"idx": 1236, "source": "atom:prevents", "verify": {"kind": "floor-atom"}}
-{"idx": 1237, "source": "atom:produces", "verify": {"kind": "floor-atom"}}
-{"idx": 1238, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
-{"idx": 1239, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
-{"idx": 1240, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
-{"idx": 1241, "source": "atom:part_of", "verify": {"kind": "floor-atom"}}
-{"idx": 1242, "source": "atom:belongs_to", "verify": {"kind": "floor-atom"}}
-{"idx": 1243, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1235, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1236, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1237, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1238, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1239, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1240, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1241, "source": "atom:produces", "verify": {"kind": "floor-atom"}}
+{"idx": 1242, "source": "atom:depends_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1243, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
 {"idx": 1244, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
-{"idx": 1245, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
-{"idx": 1246, "source": "fighter:bug-fix", "verify": {"kind": "real-session-diagnostic"}}
-{"idx": 1247, "source": "fighter:bug-fix", "verify": {"kind": "real-session-diagnostic"}}
-{"idx": 1248, "source": "fighter:bug-fix", "verify": {"kind": "real-session-diagnostic"}}
-{"idx": 1249, "source": "proof:peel-capability-cobol-fixed-point-trig.cob", "verify": {"kind": "compile-verified", "free_format": true}}
-{"idx": 1250, "source": "proof:peel-data-format-cobol-sprite-bitmap.cob", "verify": {"kind": "compile-verified", "free_format": true}}
-{"idx": 1251, "source": "proof:peel-capability-cobol-ansi256-raster.cob", "verify": {"kind": "compile-verified", "free_format": true}}
-{"idx": 1252, "source": "proof:peel-capability-cobol-raycast-dda.cob", "verify": {"kind": "compile-verified", "free_format": true}}
+{"idx": 1245, "source": "atom:packs_to", "verify": {"kind": "floor-atom"}}
+{"idx": 1246, "source": "atom:produces", "verify": {"kind": "floor-atom"}}
+{"idx": 1247, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1248, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1249, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1250, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1251, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1252, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1253, "source": "atom:composed_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1254, "source": "atom:packs_to", "verify": {"kind": "floor-atom"}}
+{"idx": 1255, "source": "atom:requires", "verify": {"kind": "floor-atom"}}
+{"idx": 1256, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1257, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
+{"idx": 1258, "source": "atom:part_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1259, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1260, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
+{"idx": 1261, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
+{"idx": 1262, "source": "atom:belongs_to", "verify": {"kind": "floor-atom"}}
+{"idx": 1263, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1264, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
+{"idx": 1265, "source": "atom:produces", "verify": {"kind": "floor-atom"}}
+{"idx": 1266, "source": "atom:can_do", "verify": {"kind": "floor-atom"}}
+{"idx": 1267, "source": "atom:enables", "verify": {"kind": "floor-atom"}}
+{"idx": 1268, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1269, "source": "atom:depends_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1270, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1271, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
+{"idx": 1272, "source": "atom:used_for", "verify": {"kind": "floor-atom"}}
+{"idx": 1273, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1274, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1275, "source": "atom:works_in", "verify": {"kind": "floor-atom"}}
+{"idx": 1276, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1277, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1278, "source": "atom:instance_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1279, "source": "atom:differs_from", "verify": {"kind": "floor-atom"}}
+{"idx": 1280, "source": "atom:requires", "verify": {"kind": "floor-atom"}}
+{"idx": 1281, "source": "atom:runs_on", "verify": {"kind": "floor-atom"}}
+{"idx": 1282, "source": "atom:can_do", "verify": {"kind": "floor-atom"}}
+{"idx": 1283, "source": "atom:requires", "verify": {"kind": "floor-atom"}}
+{"idx": 1284, "source": "atom:prevents", "verify": {"kind": "floor-atom"}}
+{"idx": 1285, "source": "atom:produces", "verify": {"kind": "floor-atom"}}
+{"idx": 1286, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1287, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1288, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1289, "source": "atom:part_of", "verify": {"kind": "floor-atom"}}
+{"idx": 1290, "source": "atom:belongs_to", "verify": {"kind": "floor-atom"}}
+{"idx": 1291, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1292, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1293, "source": "atom:is_a", "verify": {"kind": "floor-atom"}}
+{"idx": 1294, "source": "fighter:bug-fix", "verify": {"kind": "real-session-diagnostic"}}
+{"idx": 1295, "source": "fighter:bug-fix", "verify": {"kind": "real-session-diagnostic"}}
+{"idx": 1296, "source": "fighter:bug-fix", "verify": {"kind": "real-session-diagnostic"}}
+{"idx": 1297, "source": "proof:peel-capability-cobol-fixed-point-trig.cob", "verify": {"kind": "compile-verified", "free_format": true}}
+{"idx": 1298, "source": "proof:peel-data-format-cobol-sprite-bitmap.cob", "verify": {"kind": "compile-verified", "free_format": true}}
+{"idx": 1299, "source": "proof:peel-capability-cobol-ansi256-raster.cob", "verify": {"kind": "compile-verified", "free_format": true}}
+{"idx": 1300, "source": "proof:peel-capability-cobol-raycast-dda.cob", "verify": {"kind": "compile-verified", "free_format": true}}
