@@ -84,9 +84,19 @@ def _heuristic(parent: Genome, failures: list[str], rng: random.Random):
         return {"instructions": rng.choice(cands)} if cands else {"temperature": 0.1}
     moves.append(("instructions", prompt_move))
 
-    label, fn = rng.choice(moves)
-    changes = fn()
-    return changes, f"heuristic:{label} -> {json.dumps(changes)[:120]}"
+    # Honour the "never a no-op" contract: try moves (shuffled) until one
+    # actually changes a field. Boundary clamps (top_k at a limit,
+    # repair_attempts already 5, temp jitter landing on the same value) can
+    # yield an empty diff — those are skipped, not emitted.
+    order = list(moves)
+    rng.shuffle(order)
+    for label, fn in order:
+        changes = {k: v for k, v in fn().items() if getattr(parent, k) != v}
+        if changes:
+            return changes, f"heuristic:{label} -> {json.dumps(changes)[:120]}"
+    # Every knob is pinned at a boundary — force a guaranteed-different move.
+    forced = 0.1 if parent.temperature != 0.1 else 0.3
+    return {"temperature": forced}, f"heuristic:temperature(forced) -> {forced}"
 
 
 # ------------------------------------------------------------------- brain

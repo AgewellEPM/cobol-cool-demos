@@ -47,12 +47,20 @@ class Archive:
         self.rng = rng or random.Random(1234)  # deterministic by default
 
     # ------------------------------------------------------------- writes
-    def add(self, g: Genome, fit: Fitness) -> None:
+    def add(self, g: Genome, fit: Fitness) -> bool:
+        """Insert a newly-evaluated genome. Idempotent: re-adding an existing
+        genome_id is a no-op (returns False) — never double-counts a parent's
+        `children` or rewrites `seq`. A plain INSERT (not INSERT OR REPLACE) so
+        the child-accounting below can only ever fire for a genuinely new row."""
+        if self.con.execute(
+            "SELECT 1 FROM agents WHERE genome_id = ?", (g.genome_id,)
+        ).fetchone() is not None:
+            return False
         seq = (self.con.execute("SELECT COALESCE(MAX(seq), -1) FROM agents").fetchone()[0]) + 1
         self.con.execute(
-            "INSERT OR REPLACE INTO agents (genome_id, parent_id, generation, "
-            "origin, fingerprint, genome_json, csr, pass_at_1, n_tasks, "
-            "no_code, children, seq, notes) VALUES (?,?,?,?,?,?,?,?,?,?,0,?,?)",
+            "INSERT INTO agents (genome_id, parent_id, generation, origin, "
+            "fingerprint, genome_json, csr, pass_at_1, n_tasks, no_code, "
+            "children, seq, notes) VALUES (?,?,?,?,?,?,?,?,?,?,0,?,?)",
             (g.genome_id, g.parent_id, g.generation, g.origin, g.fingerprint(),
              g.to_json(), fit.csr, fit.pass_at_1, fit.n_tasks, fit.no_code,
              seq, g.notes),
@@ -63,6 +71,7 @@ class Archive:
                 (g.parent_id,),
             )
         self.con.commit()
+        return True
 
     # ------------------------------------------------------------- reads
     def has_fingerprint(self, fp: str) -> bool:
