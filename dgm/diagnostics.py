@@ -40,6 +40,16 @@ _CLASSES: list[tuple[str, re.Pattern]] = [
 ]
 
 
+def classify_error(stderr: str) -> str:
+    """Bucket one cobc stderr blob into an error class (first match wins,
+    specific-before-broad). Pure + version-independent — the unit-testable core
+    of classify()."""
+    for name, pat in _CLASSES:
+        if pat.search(stderr):
+            return name
+    return "syntax_other"
+
+
 def _syntax_error(cbl: Path) -> str | None:
     """Return cobc's stderr if `cbl` fails to compile, else None.
 
@@ -78,14 +88,9 @@ def classify(pred_dir: Path, empty_task_ids: set[str] | None = None) -> dict:
         err = _syntax_error(cbl)
         if err is None:
             continue
-        for name, pat in _CLASSES:
-            if pat.search(err):
-                counts[name] += 1
-                samples.setdefault(name, err.strip()[:240])
-                break
-        else:
-            counts["syntax_other"] += 1
-            samples.setdefault("syntax_other", err.strip()[:240])
+        name = classify_error(err)
+        counts[name] += 1
+        samples.setdefault(name, err.strip()[:240])
 
     return {
         "counts": dict(counts),
