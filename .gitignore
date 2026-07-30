@@ -22,3 +22,9 @@ train/fused/
 train/*.gguf
 train/*.log
 eval/__pycache__/
+
+# cobol-dgm run artifacts (archive, logs) and caches
+dgm/runs/
+__pycache__/
+*.pyc
+.DS_Store
