@@ -1,0 +1,42 @@
+{
+  "genome_id": "g003-c61b1a281913d8aa",
+  "discovered_by": "cobol-dgm heuristic proposer, 8-iter run 2026-07-30",
+  "scaffold": {
+    "instructions": "You are completing a GnuCOBOL 3.2 subprogram called as a subroutine.\nOutput ONLY the full program in one ```cobol block.\n\nChecklist before you answer:\n1. WORKING-STORAGE SECTION, then LINKAGE SECTION (verbatim from skeleton).\n2. PROCEDURE DIVISION USING LINKED-ITEMS.\n3. Compute, MOVE result into RESULT, then GOBACK.\n4. Fixed-format columns 12-72; END PROGRAM <program-id> last.",
+    "repair_prompt": "Your program does NOT compile. cobc says:\n\n{diagnostics}\n\nFix every error and reply with the complete corrected program in one ```cobol\nblock. Remember: fixed-format code must not pass column 72; avoid reserved\nwords (SUM, COUNT, DATA, ...) as data names.",
+    "temperature": 0.0,
+    "use_peels": false,
+    "use_atoms": true,
+    "top_k_peels": 4,
+    "top_k_atoms": 3,
+    "repair_attempts": 2,
+    "fix_section_order": true,
+    "format_mode": "fixed"
+  },
+  "model": "cobol-jeeves-ft",
+  "lineage_notes": "heuristic:instructions -> {\"instructions\": \"You are completing a GnuCOBOL 3.2 subprogram called as a subroutine.\\nOutput ONLY the full program in ",
+  "scores": {
+    "evolution_window_tasks_0_14": {
+      "csr": 0.3333,
+      "pass_at_1": 0.0,
+      "n": 15
+    },
+    "heldout_window_tasks_15_39": {
+      "csr": 0.32,
+      "pass_at_1": 0.12,
+      "n": 25
+    }
+  },
+  "seed_baseline": {
+    "evolution_window_tasks_0_14": {
+      "csr": 0.2667,
+      "pass_at_1": 0.0,
+      "n": 15
+    },
+    "heldout_window_tasks_15_39": {
+      "csr": 0.12,
+      "pass_at_1": 0.0,
+      "n": 25
+    }
+  }
+}
