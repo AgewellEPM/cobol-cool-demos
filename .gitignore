@@ -19,3 +19,6 @@ train/venv/
 train/adapters/
 train/llama.cpp/
 train/fused/
+train/*.gguf
+train/*.log
+eval/__pycache__/
