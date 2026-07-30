@@ -48,30 +48,35 @@ class Archive:
 
     # ------------------------------------------------------------- writes
     def add(self, g: Genome, fit: Fitness) -> bool:
-        """Insert a newly-evaluated genome. Idempotent: re-adding an existing
-        genome_id is a no-op (returns False) — never double-counts a parent's
-        `children` or rewrites `seq`. A plain INSERT (not INSERT OR REPLACE) so
-        the child-accounting below can only ever fire for a genuinely new row."""
-        if self.con.execute(
-            "SELECT 1 FROM agents WHERE genome_id = ?", (g.genome_id,)
-        ).fetchone() is not None:
-            return False
+        """Insert a newly-evaluated genome, atomically idempotent.
+
+        Uses `INSERT ... ON CONFLICT(genome_id) DO NOTHING` so a re-added
+        genome_id is a clean no-op (returns False) with NO TOCTOU window — a
+        concurrent writer cannot make this raise IntegrityError or double-count
+        the parent's `children`/rewrite `seq`. The parent child-count fires only
+        when a row was truly inserted (checked via total_changes delta).
+
+        Note: `seq` monotonicity assumes a single writer — which the DGM loop
+        guarantees. The archive is not designed for concurrent evolution."""
         seq = (self.con.execute("SELECT COALESCE(MAX(seq), -1) FROM agents").fetchone()[0]) + 1
+        before = self.con.total_changes
         self.con.execute(
             "INSERT INTO agents (genome_id, parent_id, generation, origin, "
             "fingerprint, genome_json, csr, pass_at_1, n_tasks, no_code, "
-            "children, seq, notes) VALUES (?,?,?,?,?,?,?,?,?,?,0,?,?)",
+            "children, seq, notes) VALUES (?,?,?,?,?,?,?,?,?,?,0,?,?) "
+            "ON CONFLICT(genome_id) DO NOTHING",
             (g.genome_id, g.parent_id, g.generation, g.origin, g.fingerprint(),
              g.to_json(), fit.csr, fit.pass_at_1, fit.n_tasks, fit.no_code,
              seq, g.notes),
         )
-        if g.parent_id:
+        inserted = (self.con.total_changes - before) == 1
+        if inserted and g.parent_id:
             self.con.execute(
                 "UPDATE agents SET children = children + 1 WHERE genome_id = ?",
                 (g.parent_id,),
             )
         self.con.commit()
-        return True
+        return inserted
 
     # ------------------------------------------------------------- reads
     def has_fingerprint(self, fp: str) -> bool:
