@@ -22,7 +22,27 @@ import shutil
 import subprocess
 from dataclasses import asdict
 
+from .diagnostics import dominant
 from .genome import Genome
+
+# Compiler-error class -> a one-line instruction directive that targets it.
+# Appended to the parent's instructions (base preserved) so a good prompt isn't
+# thrown away — only sharpened at its actual failure mode.
+_TARGETED_DIRECTIVES = {
+    "user_function":
+        "- Never define your own FUNCTION (or a paragraph used as one); use "
+        "intrinsic functions (FUNCTION ABS, FUNCTION MOD, FUNCTION MAX ...) "
+        "directly, and declare EVERY data name in WORKING-STORAGE before use.",
+    "subscript_misuse":
+        "- RESULT and other scalar LINKAGE items are scalars: write "
+        "MOVE <value> TO RESULT — never subscript them like RESULT(I).",
+    "reserved_word":
+        "- Do NOT use reserved words (SUM, COUNT, DATA, LENGTH, TYPE ...) as "
+        "data names; prefix your own (WS-SUM, WS-COUNT).",
+    "column_overflow":
+        "- Fixed-format: keep all code within columns 12-72; never let a "
+        "statement run past column 72.",
+}
 
 # Alternative instruction blocks the heuristic proposer can swap in. Each is a
 # plausible, self-contained rephrasing of the task contract — variety in the
@@ -153,12 +173,50 @@ def _brain_cmd(proposer: str) -> list[str]:
     return table[proposer]
 
 
+# ------------------------------------------------------- failure-targeted
+def _targeted(parent: Genome, diagnostics: dict, rng: random.Random):
+    """A scaffold move aimed at the parent's DOMINANT compiler-error class, or
+    None if there's no useful signal (caller then falls back to heuristic).
+    Directives are only appended when not already present — so repeatedly
+    hitting the same class doesn't re-emit a no-op."""
+    cls = dominant(diagnostics)
+    if cls is None:
+        return None
+    directive = _TARGETED_DIRECTIVES.get(cls)
+    if directive and directive not in parent.instructions:
+        new = parent.instructions.rstrip() + "\n" + directive
+        return {"instructions": new}, f"targeted:{cls} +directive"
+    if cls == "flow_mismatch" and parent.repair_attempts < 5:
+        # dangling scope terminators are exactly what compiler feedback fixes
+        return {"repair_attempts": parent.repair_attempts + 1}, "targeted:flow_mismatch +repair"
+    if cls == "no_code":
+        if parent.temperature > 0.0:
+            return {"temperature": round(max(0.0, parent.temperature - 0.2), 2)}, "targeted:no_code -temp"
+        if parent.repair_attempts < 5:
+            return {"repair_attempts": parent.repair_attempts + 1}, "targeted:no_code +repair"
+    return None
+
+
+def _diag_to_failures(diagnostics: dict) -> list[str]:
+    """Flatten a diagnostics dict into failure strings for a brain proposer."""
+    samples = (diagnostics or {}).get("samples") or {}
+    counts = (diagnostics or {}).get("counts") or {}
+    return [f"[{cls} x{counts.get(cls, '?')}] {txt}" for cls, txt in samples.items()]
+
+
 # ------------------------------------------------------------------- entry
-def propose(parent: Genome, failures: list[str], *, proposer: str,
+def propose(parent: Genome, diagnostics: dict, *, proposer: str,
             rng: random.Random) -> Genome:
-    """Return a child Genome derived from `parent` via the chosen proposer."""
+    """Return a child Genome derived from `parent`.
+
+    heuristic: exploit the dominant failure class ~70% of the time (targeted
+    directive), else explore via a guided-random move — targeted-but-not-greedy
+    keeps the open-ended search alive. brain: hand the diagnostics to the model."""
     if proposer == "heuristic":
-        changes, notes = _heuristic(parent, failures, rng)
+        move = None
+        if diagnostics and rng.random() < 0.7:
+            move = _targeted(parent, diagnostics, rng)
+        changes, notes = move if move else _heuristic(parent, [], rng)
     else:
-        changes, notes = _brain(parent, failures, proposer)
+        changes, notes = _brain(parent, _diag_to_failures(diagnostics), proposer)
     return parent.child(changes, origin=proposer, notes=notes).with_id()

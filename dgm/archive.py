@@ -10,6 +10,7 @@ SQLite-backed so a run is resumable and inspectable: `sqlite3 archive.db`.
 """
 from __future__ import annotations
 
+import json
 import math
 import random
 import sqlite3
@@ -32,7 +33,8 @@ CREATE TABLE IF NOT EXISTS agents (
     no_code     INTEGER,
     children    INTEGER DEFAULT 0,
     seq         INTEGER,          -- insertion order (also the tiebreak clock)
-    notes       TEXT
+    notes       TEXT,
+    diagnostics TEXT              -- json: failure-class histogram for the proposer
 );
 """
 
@@ -44,6 +46,11 @@ class Archive:
         self.con = sqlite3.connect(self.path)
         self.con.row_factory = sqlite3.Row
         self.con.executescript(_SCHEMA)
+        # migration for archives created before the diagnostics column existed
+        cols = {r["name"] for r in self.con.execute("PRAGMA table_info(agents)")}
+        if "diagnostics" not in cols:
+            self.con.execute("ALTER TABLE agents ADD COLUMN diagnostics TEXT")
+            self.con.commit()
         self.rng = rng or random.Random(1234)  # deterministic by default
 
     # ------------------------------------------------------------- writes
@@ -63,11 +70,11 @@ class Archive:
         self.con.execute(
             "INSERT INTO agents (genome_id, parent_id, generation, origin, "
             "fingerprint, genome_json, csr, pass_at_1, n_tasks, no_code, "
-            "children, seq, notes) VALUES (?,?,?,?,?,?,?,?,?,?,0,?,?) "
+            "children, seq, notes, diagnostics) VALUES (?,?,?,?,?,?,?,?,?,?,0,?,?,?) "
             "ON CONFLICT(genome_id) DO NOTHING",
             (g.genome_id, g.parent_id, g.generation, g.origin, g.fingerprint(),
              g.to_json(), fit.csr, fit.pass_at_1, fit.n_tasks, fit.no_code,
-             seq, g.notes),
+             seq, g.notes, json.dumps(fit.diagnostics or {})),
         )
         inserted = (self.con.total_changes - before) == 1
         if inserted and g.parent_id:
@@ -100,6 +107,15 @@ class Archive:
         if not row:
             raise KeyError(genome_id)
         return Genome.from_json(row["genome_json"])
+
+    def get_diagnostics(self, genome_id: str) -> dict:
+        """The stored failure-class histogram for a genome (empty if none/old row)."""
+        row = self.con.execute(
+            "SELECT diagnostics FROM agents WHERE genome_id = ?", (genome_id,)
+        ).fetchone()
+        if not row or not row["diagnostics"]:
+            return {}
+        return json.loads(row["diagnostics"])
 
     def all_rows(self):
         return self.con.execute("SELECT * FROM agents ORDER BY seq ASC").fetchall()

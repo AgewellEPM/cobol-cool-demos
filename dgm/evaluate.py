@@ -13,9 +13,10 @@ import json
 import os
 import sys
 from collections import defaultdict
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 
+from . import diagnostics as diag
 from .genome import Genome
 from .solver import solve_task
 
@@ -32,6 +33,7 @@ class Fitness:
     pass_at_1: float    # tiebreak
     per_task: dict      # task_id -> {"compiled": bool, "all_passed": bool}
     no_code: int        # tasks where the genome emitted nothing compilable
+    diagnostics: dict = field(default_factory=dict)  # failure-class histogram
 
     def key(self) -> tuple:
         """Sort key: higher CSR, then higher pass@1, then fewer no-code."""
@@ -85,7 +87,7 @@ def _score(genome_id: str, pred_dir: Path) -> Fitness:
     finally:
         os.chdir(cwd)
 
-    per_task, compiled, passed, no_code = {}, 0, 0, 0
+    per_task, compiled, passed = {}, 0, 0
     results_file = pred_dir / "samples.jsonl_results.jsonl"
     for line in results_file.read_text().splitlines():
         r = json.loads(line)
@@ -93,14 +95,18 @@ def _score(genome_id: str, pred_dir: Path) -> Fitness:
         per_task[r["task_id"]] = {"compiled": ok_compile, "all_passed": r["all_passed"]}
         compiled += ok_compile
         passed += bool(r["all_passed"])
+
+    empty_ids = set()
     for line in (pred_dir / "samples.jsonl").read_text().splitlines():
-        if not json.loads(line)["completion"].strip():
-            no_code += 1
+        row = json.loads(line)
+        if not row["completion"].strip():
+            empty_ids.add(row["task_id"])
 
     n = len(per_task)
     return Fitness(
         genome_id=genome_id, n_tasks=n,
         csr=round(compiled / n, 4) if n else 0.0,
         pass_at_1=round(passed / n, 4) if n else 0.0,
-        per_task=per_task, no_code=no_code,
+        per_task=per_task, no_code=len(empty_ids),
+        diagnostics=diag.classify(pred_dir, empty_ids),
     )

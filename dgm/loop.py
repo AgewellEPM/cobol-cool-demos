@@ -45,11 +45,6 @@ def _preflight(model: str) -> None:
         sys.exit("FATAL: cobc (GnuCOBOL) not on PATH — the repair gate needs it")
 
 
-def _failures(fit) -> list[str]:
-    """Task ids the genome could not compile — the mutation operator's signal."""
-    return [tid for tid, v in fit.per_task.items() if not v["compiled"]]
-
-
 def main() -> None:
     ap = argparse.ArgumentParser(description="Darwin Godel Machine for offline COBOL")
     ap.add_argument("--iterations", type=int, default=8)
@@ -89,10 +84,10 @@ def main() -> None:
         parent_csr = arc.con.execute(
             "SELECT csr FROM agents WHERE genome_id=?", (parent.genome_id,)
         ).fetchone()["csr"]
-        # The offline heuristic proposer ignores per-task failures; brain
-        # proposers receive them via the parent scaffold. Keeping the signal
-        # empty here keeps the default path zero-cost and fully offline.
-        child = mutate.propose(parent, failures=[], proposer=args.proposer, rng=rng)
+        # Feed the parent's own compiler-failure histogram to the proposer so it
+        # can aim at the dominant error class instead of mutating blind.
+        parent_diag = arc.get_diagnostics(parent.genome_id)
+        child = mutate.propose(parent, parent_diag, proposer=args.proposer, rng=rng)
 
         if arc.has_fingerprint(child.fingerprint()):
             print(f"[iter {it}] {child.origin} produced a duplicate scaffold — skipping", flush=True)
