@@ -46,11 +46,20 @@ class Archive:
         self.con = sqlite3.connect(self.path)
         self.con.row_factory = sqlite3.Row
         self.con.executescript(_SCHEMA)
-        # migration for archives created before the diagnostics column existed
+        # migration for archives created before the diagnostics column existed.
+        # Idempotent + concurrency-tolerant: if a racing process added the column
+        # (or holds a DDL lock) between our check and ALTER, swallow the
+        # duplicate-column/locked error — the column ends up present either way.
         cols = {r["name"] for r in self.con.execute("PRAGMA table_info(agents)")}
         if "diagnostics" not in cols:
-            self.con.execute("ALTER TABLE agents ADD COLUMN diagnostics TEXT")
-            self.con.commit()
+            try:
+                self.con.execute("ALTER TABLE agents ADD COLUMN diagnostics TEXT")
+                self.con.commit()
+            except sqlite3.OperationalError:
+                if "diagnostics" not in {
+                    r["name"] for r in self.con.execute("PRAGMA table_info(agents)")
+                }:
+                    raise  # genuinely failed to migrate — do not run half-migrated
         self.rng = rng or random.Random(1234)  # deterministic by default
 
     # ------------------------------------------------------------- writes

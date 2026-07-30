@@ -42,6 +42,11 @@ _TARGETED_DIRECTIVES = {
     "column_overflow":
         "- Fixed-format: keep all code within columns 12-72; never let a "
         "statement run past column 72.",
+    "expr_syntax":
+        "- COBOL has NO inline arithmetic/expressions in PERFORM or IF (e.g. "
+        "FROM WS-I + 1). COMPUTE values into a WORKING-STORAGE field first "
+        "(COMPUTE WS-J = WS-I + 1) then reference it; call intrinsics as "
+        "FUNCTION NAME(arg), never NAME(arg).",
 }
 
 # Alternative instruction blocks the heuristic proposer can swap in. Each is a
