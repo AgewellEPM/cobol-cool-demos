@@ -2,6 +2,12 @@
 # Robust chain: resume-download the MLX base until complete, then train.
 cd "$(dirname "$0")/.."
 export HF_HUB_DISABLE_XET=1
+
+# Preflight: a broken venv would otherwise waste 30x60s of retries before failing.
+[ -x train/venv/bin/python ] || { echo "FATAL: train/venv/bin/python missing — create the venv first"; exit 1; }
+train/venv/bin/python -c "import huggingface_hub" 2>/dev/null \
+  || { echo "FATAL: huggingface_hub not importable in train/venv — pip install it first"; exit 1; }
+
 n=0
 until train/venv/bin/python -c "
 from huggingface_hub import snapshot_download

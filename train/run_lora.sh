@@ -18,8 +18,38 @@ TARGET=1200
 
 # Auto-resume: if a prior run left a checkpoint, continue from the newest one and
 # subtract the iters already done so total training stays ~1 epoch across restarts.
+#
+# A panic mid-save can leave a TRUNCATED *_adapters.safetensors (partial write).
+# Resuming against a corrupt file wedges the run, so validate the safetensors
+# header before trusting a checkpoint and fall back to the next-newest if bad.
+valid_ckpt() {
+  # exit 0 iff $1 is a structurally complete safetensors file (header parses and
+  # the declared header length fits inside the file). Cheap: no weight load.
+  train/venv/bin/python - "$1" <<'PY'
+import json, struct, sys
+p = sys.argv[1]
+try:
+    with open(p, "rb") as f:
+        n = struct.unpack("<Q", f.read(8))[0]      # header length prefix
+        hdr = f.read(n)
+        if len(hdr) != n:                            # truncated header
+            sys.exit(1)
+        json.loads(hdr)                              # header must parse
+        import os
+        if os.path.getsize(p) < 8 + n:               # truncated body
+            sys.exit(1)
+except Exception:
+    sys.exit(1)
+sys.exit(0)
+PY
+}
+
 RESUME=""
-latest=$(ls -1t train/adapters/*_adapters.safetensors 2>/dev/null | head -1 || true)
+latest=""
+for cand in $(ls -1t train/adapters/*_adapters.safetensors 2>/dev/null); do
+  if valid_ckpt "$cand"; then latest="$cand"; break; fi
+  echo "SKIP corrupt/partial checkpoint: $cand"
+done
 if [ -n "$latest" ]; then
   done=$(basename "$latest" | sed -E 's/^0*([0-9]+)_adapters\.safetensors$/\1/')
   ITERS=$(( TARGET - done ))

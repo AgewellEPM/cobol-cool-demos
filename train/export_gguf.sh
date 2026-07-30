@@ -17,18 +17,26 @@ FUSED="$EXPORT/fused-fp16"
 mkdir -p "$EXPORT"
 
 echo "==> ensure convert deps (torch + llama.cpp convert reqs)"
+# fail-fast: a swallowed pip failure here only resurfaces as an opaque
+# convert_hf_to_gguf error 30 lines later. set -e already aborts on failure.
 train/venv/bin/python -c "import torch" 2>/dev/null || train/venv/bin/pip install --quiet torch
-train/venv/bin/pip install --quiet -r train/llama.cpp/requirements/requirements-convert_hf_to_gguf.txt || true
+train/venv/bin/pip install --quiet -r train/llama.cpp/requirements/requirements-convert_hf_to_gguf.txt
 
+# The index.json only exists after a *successful* atomic move below, so its
+# presence is a real completion marker (not a mid-fuse partial write).
 if [ -f "$FUSED/model.safetensors.index.json" ]; then
   echo "==> fuse: reusing existing fp16 shards in $FUSED"
 else
-  echo "==> fuse (dequantize to fp16)"
+  echo "==> fuse (dequantize to fp16) — atomic: build in .tmp, move on success"
+  rm -rf "$FUSED.tmp"          # clear any stale partial shards from a prior panic
   train/venv/bin/mlx_lm.fuse \
     --model mlx-community/Qwen2.5-Coder-7B-Instruct-4bit \
     --adapter-path train/adapters \
-    --save-path "$FUSED" \
+    --save-path "$FUSED.tmp" \
     --dequantize
+  # only a completed fuse reaches here (set -e); publish atomically.
+  rm -rf "$FUSED"
+  mv "$FUSED.tmp" "$FUSED"
 fi
 
 echo "==> sanitize tokenizer_config.json (drop list-typed extra_special_tokens)"
