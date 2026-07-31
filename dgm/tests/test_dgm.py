@@ -215,6 +215,22 @@ class TestHarvest(unittest.TestCase):
         self.assertLess(harvest.TRAIN_POOL_END, harvest.HELD_OUT_TEST_START)
         self.assertEqual(harvest.HELD_OUT_TEST_START, harvest.TRAIN_POOL_END + 1)
 
+    def test_bad_task_id_shape_fails_loud(self):
+        root = self._pred_dir(Path(tempfile.mkdtemp()), [("foo/5", _VALID_COBOL, True)])
+        with self.assertRaises(ValueError):   # not HumanEval/<n> -> refuse to split
+            harvest.harvest(root, {"foo/5": "s"})
+
+    def test_duplicate_task_id_fails_loud(self):
+        d = Path(tempfile.mkdtemp()) / "dgm_x"
+        d.mkdir(parents=True)
+        (d / "samples.jsonl").write_text(
+            json.dumps({"task_id": "HumanEval/5", "completion": _VALID_COBOL}) + "\n" +
+            json.dumps({"task_id": "HumanEval/5", "completion": _VALID_COBOL}) + "\n")
+        (d / "samples.jsonl_results.jsonl").write_text(
+            json.dumps({"task_id": "HumanEval/5", "compiled": [True], "all_passed": True}) + "\n")
+        with self.assertRaises(ValueError):   # can't trust pairing
+            harvest.harvest(d.parent, {"HumanEval/5": "s"})
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -41,8 +41,13 @@ INSTRUCTIONS = (
 
 
 def _task_index(task_id: str) -> int:
-    """HumanEval/<n> -> n. Raises on any other shape so a mis-split fails loud."""
-    return int(task_id.rsplit("/", 1)[-1])
+    """'HumanEval/<n>' -> n. Fails LOUD on any other shape — a mis-parsed id must
+    never silently land on the wrong side of the train/test split."""
+    prefix, _, num = task_id.partition("/")
+    if prefix != "HumanEval" or not num.isdigit():
+        raise ValueError(f"unexpected task_id shape {task_id!r} — refusing to "
+                         "split it (contamination guard)")
+    return int(num)
 
 
 def _load_prompts() -> dict[str, str]:
@@ -72,7 +77,8 @@ def harvest(pred_root: Path, prompts: dict[str, str]) -> tuple[list[dict], list[
     Returns (pairs, provenance, stats). Dedups by task_id keeping the shortest
     verified completion (cleaner, less likely to carry dead code)."""
     best: dict[str, tuple[int, str, str]] = {}   # task_id -> (len, completion, genome_tag)
-    stats = {"genomes": 0, "passing_seen": 0, "held_out_refused": 0, "recheck_dropped": 0}
+    stats = {"genomes": 0, "passing_seen": 0, "held_out_refused": 0,
+             "out_of_pool": 0, "recheck_dropped": 0}
 
     for pred_dir in sorted(pred_root.glob("dgm_*")):
         results = pred_dir / "samples.jsonl_results.jsonl"
@@ -80,29 +86,48 @@ def harvest(pred_root: Path, prompts: dict[str, str]) -> tuple[list[dict], list[
         if not (results.exists() and samples.exists()):
             continue
         stats["genomes"] += 1
-        completions = {
-            json.loads(l)["task_id"]: json.loads(l)["completion"]
-            for l in samples.read_text().splitlines()
-        }
+        # Build the completion map with an explicit duplicate check: silently
+        # collapsing two rows for the same task_id could pair an all_passed
+        # verdict with the WRONG completion. One sample per task is expected;
+        # anything else is a corrupt pred file and must fail loud.
+        completions: dict[str, str] = {}
+        for l in samples.read_text().splitlines():
+            row = json.loads(l)
+            tid = row["task_id"]
+            if tid in completions:
+                raise ValueError(f"duplicate task_id {tid!r} in {samples} — "
+                                 "cannot trust all_passed<->completion pairing")
+            completions[tid] = row["completion"]
+
         for line in results.read_text().splitlines():
             r = json.loads(line)
             if not r["all_passed"]:
                 continue
             tid = r["task_id"]
             stats["passing_seen"] += 1
-            if _task_index(tid) >= HELD_OUT_TEST_START:   # the guard rail
+            idx = _task_index(tid)
+            if idx >= HELD_OUT_TEST_START:                # never train on test
                 stats["held_out_refused"] += 1
                 continue
-            comp = completions.get(tid, "")
-            if not _compiles(comp):
+            if not (0 <= idx <= TRAIN_POOL_END):           # TRAIN_POOL_END is authoritative
+                stats["out_of_pool"] += 1
+                continue
+            if tid not in completions:                     # passing result, no completion = corrupt
+                raise ValueError(f"result {tid!r} all_passed but absent from "
+                                 f"{samples} — corrupt pred pair")
+            comp = completions[tid]
+            if not _compiles(comp):                        # corruption filter (all_passed already earned)
                 stats["recheck_dropped"] += 1
                 continue
             cur = best.get(tid)
-            if cur is None or len(comp) < cur[0]:
+            if cur is None or len(comp) < cur[0]:          # all candidates already passed; prefer least dead code
                 best[tid] = (len(comp), comp, pred_dir.name)
 
     pairs, prov = [], []
     for tid, (_, comp, tag) in sorted(best.items()):
+        if tid not in prompts:
+            raise ValueError(f"no prompt for harvested task {tid!r} in the task "
+                             "file — refusing to emit an unanchored pair")
         user = f"{INSTRUCTIONS}\n\n```cobol\n{prompts[tid]}\n```"
         pairs.append({"messages": [
             {"role": "user", "content": user},
