@@ -57,21 +57,38 @@ sqlite3 dgm/runs/archive.db \
 
 ## Honest gaps (what blocks a higher label)
 
-- **Evaluation cost**: COBOLEval is slow (~15–40 s/task on this box). Runs use a
-  task *subset*; the champion must be re-validated on the full 146 before any
-  claim. Subset scores are noisy at small n — treat as search signal, not truth.
-- **Tier-B not built**: evolving the *dataset → LoRA → new model genome* (the
-  weight axis) is scaffolded conceptually only. Hardware-gated (16 GB, prior
-  training-induced kernel panics). The current loop evolves scaffold only.
-- **Heuristic proposer is shallow**: guided random moves, not reasoning about
-  failures. Brain proposer is the intended driver once a run is trusted.
-- **No held-out split yet**: subset overlap between iterations can overfit the
-  window. Add a rotating/held-out task set before trusting deltas.
-- Single-sample (temp may be >0 but k=1). No multi-sample Pass@k.
+- **Eval noise (measured)**: ollama is nondeterministic even at temperature 0 —
+  the seed scaffold scored CSR 0.267 and 0.20 on the *same* 15 tasks across two
+  runs (±1 task ≈ ±0.067 at n=15). So small-n subset deltas are search signal,
+  NOT truth: a champion must clear the noise band and be re-validated on a
+  held-out window (and ideally the full 146) before any claim.
+- **Tier-B LoRA not run yet**: the harvest half is built and leak-safe
+  (`harvest.py`); the training run (`train/run_lora.sh`) is GPU-gated and, on
+  this 16 GB box, kernel-panic-prone (batch 1 / max-seq 1024 required). Not
+  fired blindly.
+- **Single GPU serializes** every model job — evolution, validation, and LoRA
+  cannot overlap without thrashing. Runs go one at a time.
+- Single-sample (k=1); no multi-sample Pass@k, no variance bars yet.
+
+## Results so far (PROTOTYPE, small n — see noise caveat)
+
+Two independent evolution runs both improved over the seed and, in R1, the win
+GENERALIZED to a held-out window:
+
+| run | proposer | champion CSR (train window) | held-out (t15–39) |
+|---|---|---|---|
+| R1 | heuristic | 0.333 (vs seed 0.267) | **0.32 / p@1 0.12** vs seed 0.12 / 0.0 |
+| R2 | failure-aware | 0.40 (vs seed 0.20) | *(validation running)* |
+
+**Consistent finding across both runs (different lineages):** the terse
+instruction-checklist prompt is the dominant lever; RAG grounding (peels/atoms)
+is secondary and, for the fine-tuned model, sometimes harmful — R1 turned it off.
 
 ## Next rungs
 
-1. Feed per-task compiler diagnostics into the heuristic proposer (targeted, not random).
-2. Held-out validation split + full-146 re-score of the champion.
-3. Brain proposer default once offline loop is trusted; log lineage graphs.
-4. Tier-B: mine archived failures → training pairs → gated LoRA → new frozen genome.
+1. ✅ Compiler-diagnostics → targeted proposer moves (`diagnostics.py` + R2).
+2. ✅ Held-out re-validation tool (`revalidate.py`); full-146 re-score available.
+3. ✅ Tier-B harvest, leak-safe (`harvest.py`). NEXT: run the gated LoRA on
+   harvested + existing pairs → eval ONLY on the held-out split (tasks 100–145).
+4. Reduce eval noise: multi-sample / larger n / variance bars before claims.
+5. Brain proposer (claude/codex) as the mutation driver; lineage-graph logging.
