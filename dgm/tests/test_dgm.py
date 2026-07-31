@@ -11,11 +11,16 @@ import tempfile
 import unittest
 from pathlib import Path
 
+import json
+
 from dgm.archive import Archive
 from dgm.diagnostics import classify, classify_error, dominant
 from dgm.evaluate import Fitness
 from dgm.genome import Genome, seed_genome
-from dgm import mutate
+from dgm import harvest, mutate
+
+_VALID_COBOL = ("       IDENTIFICATION DIVISION.\n       PROGRAM-ID. T.\n"
+                "       PROCEDURE DIVISION.\n           GOBACK.\n       END PROGRAM T.\n")
 
 
 def _fit(gid, csr=0.2, p=0.0, diag=None):
@@ -167,6 +172,48 @@ class TestDiagnostics(unittest.TestCase):
         )
         out = classify(d)
         self.assertGreaterEqual(out["n_failed"], 1)
+
+
+class TestHarvest(unittest.TestCase):
+    """Tier-B harvest — the contamination guard is the load-bearing test."""
+
+    def _pred_dir(self, root, rows):
+        """rows: list of (task_id, completion, all_passed)."""
+        d = root / "dgm_x"
+        d.mkdir(parents=True)
+        (d / "samples.jsonl").write_text("".join(
+            json.dumps({"sample_id": 0, "task_id": t, "completion": c}) + "\n"
+            for t, c, _ in rows))
+        (d / "samples.jsonl_results.jsonl").write_text("".join(
+            json.dumps({"task_id": t, "compiled": [p], "all_passed": p}) + "\n"
+            for t, _, p in rows))
+        return root
+
+    def test_refuses_held_out_and_keeps_pool(self):
+        root = self._pred_dir(Path(tempfile.mkdtemp()), [
+            ("HumanEval/5",   _VALID_COBOL, True),   # train pool -> keep
+            ("HumanEval/120", _VALID_COBOL, True),   # HELD-OUT -> must refuse
+        ])
+        prompts = {"HumanEval/5": "skel5", "HumanEval/120": "skel120"}
+        pairs, prov, stats = harvest.harvest(root, prompts)
+        self.assertEqual(stats["unique_pairs"], 1)
+        self.assertEqual(stats["held_out_refused"], 1)
+        self.assertEqual(prov[0]["task_id"], "HumanEval/5")
+        self.assertIn("skel5", pairs[0]["messages"][0]["content"])
+
+    def test_drops_noncompiling_and_failing(self):
+        root = self._pred_dir(Path(tempfile.mkdtemp()), [
+            ("HumanEval/6", "not cobol at all", True),    # all_passed but won't build
+            ("HumanEval/7", _VALID_COBOL, False),          # not all_passed
+        ])
+        prompts = {"HumanEval/6": "s", "HumanEval/7": "s"}
+        pairs, prov, stats = harvest.harvest(root, prompts)
+        self.assertEqual(stats["unique_pairs"], 0)
+        self.assertEqual(stats["recheck_dropped"], 1)
+
+    def test_split_is_disjoint_and_covers_range(self):
+        self.assertLess(harvest.TRAIN_POOL_END, harvest.HELD_OUT_TEST_START)
+        self.assertEqual(harvest.HELD_OUT_TEST_START, harvest.TRAIN_POOL_END + 1)
 
 
 if __name__ == "__main__":
